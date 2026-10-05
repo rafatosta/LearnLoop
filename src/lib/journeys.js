@@ -1,5 +1,6 @@
 import { loadAdventure } from './adventure.js';
 import { recoverForms } from './forms.js';
+import { recoverCustomForms } from './customForms.js';
 export const JOURNEYS_KEY='learnloop-journeys-v1';
 export function activeJourney(collection){return collection.journeys.find(j=>j.id===collection.activeId)?.adventure||null;}
 export function loadJourneys(storage,bank,now=Date.now()){
@@ -9,13 +10,13 @@ export function loadJourneys(storage,bank,now=Date.now()){
   const ids=new Set();const journeys=[];
   for(const j of raw.journeys){
    if(typeof j.id!=='string'||ids.has(j.id)||!Number.isFinite(j.createdAt)||!Number.isFinite(j.updatedAt))continue;
-   const adventure=recoverForms(loadAdventure({getItem:()=>JSON.stringify(j.adventure)},bank),bank,now);
+   const adventure=recoverCustomForms(recoverForms(loadAdventure({getItem:()=>JSON.stringify(j.adventure)},bank),bank,now),bank,now);
    if(!adventure)continue;
    ids.add(j.id);journeys.push({...j,adventure});
   }
   return {version:1,activeId:ids.has(raw.activeId)?raw.activeId:null,journeys};
  }
- const legacy=recoverForms(loadAdventure(storage,bank),bank,now);
+ const legacy=recoverCustomForms(recoverForms(loadAdventure(storage,bank),bank,now),bank,now);
  return {version:1,activeId:legacy?'legacy':null,journeys:legacy?[{id:'legacy',createdAt:now,updatedAt:now,adventure:legacy}]:[]};
 }
 export function addJourney(collection,adventure,id=crypto.randomUUID(),now=Date.now()){
@@ -30,6 +31,6 @@ export function updateJourney(collection,update,now=Date.now()){
 }
 export function selectJourney(collection,id,bank,now=Date.now()){
  if(!collection.journeys.some(j=>j.id===id))return collection;
- return {...collection,activeId:id,journeys:collection.journeys.map(j=>j.id===id?{...j,adventure:recoverForms(j.adventure,bank,now)}:j)};
+ return {...collection,activeId:id,journeys:collection.journeys.map(j=>j.id===id?{...j,adventure:recoverCustomForms(recoverForms(j.adventure,bank,now),bank,now)}:j)};
 }
 export function saveJourneys(storage,collection){storage.setItem(JOURNEYS_KEY,JSON.stringify(collection));}

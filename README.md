@@ -71,3 +71,11 @@ O conjunto tem 12 avatares: oito humanos (homens, mulheres, meninos e meninas), 
 **Minhas jornadas** permite começar outra aventura e retomar qualquer jornada anterior. Cada uma guarda nome, personagem, XP, histórico, confronto pendente, fases e formas de maneira independente. Todas são salvas automaticamente neste navegador. **Salvar e começar outra** preserva a atual antes de abrir a criação de um novo personagem; não existe exclusão de jornada nesta interface.
 
 O progresso único anterior é migrado automaticamente para a primeira jornada. A nova coleção fica na chave `learnloop-journeys-v1`; o registro antigo é mantido. `src/lib/journeys.js` cuida da coleção, migração e seleção. `src/Journeys.jsx` apresenta os cartões de aventuras. Trocar de jornada não pausa os desafios cronometrados: ao retomar, o prazo original é verificado. Se o navegador impedir o salvamento, começar outra jornada é bloqueado e o aviso permanece visível.
+
+## Forma própria ao concluir um capítulo
+
+Após vencer a quinta fase de cada capítulo, a tela de vitória oferece **Criar nova forma · 1 minuto**. O desafio é opcional: a próxima fase já está desbloqueada e o aluno pode deixar a revisão para depois. O convite também fica no mapa dos capítulos concluídos, inclusive para jornadas que já tinham avançado antes desta atualização.
+
+O aluno escolhe um nome e precisa acertar cinco questões sorteadas em **60 segundos no total**. A distribuição de níveis é a mesma do capítulo: [1,1,1,1,2], [1,1,2,2,2], [2,2,3,3,3] ou [3,3,4,4,4]. Erros retornam em outro formato, e dicas reduzem o acerto para 5 XP. Ao final há explicações de todas as tentativas e questões pendentes. Cada capítulo permite uma forma própria, salva naquela jornada. Falhar permite um novo sorteio; o tempo não pausa ao sair, trocar de jornada ou recarregar.
+
+As formas próprias são armazenadas em `customForms`, separadas das 13 formas da trilha de 30 segundos. `src/lib/customForms.js` define as regras; `src/CustomForms.jsx` apresenta o desafio. A interface de cronômetro e revisão é compartilhada em `src/TimedChallenge.jsx`.
