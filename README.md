@@ -1,6 +1,6 @@
 # LearnLoop Chronicles
 
-Aventura de inglês inspirada em Demon Slayer, com personagens e inimigos originais. React + Vite + Tailwind CSS, quatro avatares, quatro capítulos e vinte fases. A versão original com 68 exercícios continua em **Prática livre**, com seu armazenamento anterior preservado.
+Aventura de inglês inspirada em Demon Slayer, com personagens e inimigos originais. React + Vite + Tailwind CSS, doze personagens, quatro capítulos e vinte fases. A versão original com 68 exercícios continua em **Prática livre**, com seu armazenamento anterior preservado.
 
 ## Aventura
 
@@ -18,7 +18,7 @@ Nome, avatar, sorteio, fila, feedback e histórico são salvos em `learnloop-adv
 
 - `src/lib/adventure.js`: regras, fases, sorteio, correção e validação do progresso.
 - `src/main.jsx`: personagem, mapa e confronto.
-- `src/adventure.css`: interface responsiva, ilustrações SVG originais e avatares.
+- `src/adventure.css`: interface responsiva e estilos da seleção de personagens.
 - `src/Classic.jsx`: prática livre anterior.
 - `src/content/*.json`: questões editáveis.
 
@@ -59,3 +59,9 @@ Cada tentativa sorteia cinco questões únicas do mesmo banco da aventura. O alu
 O prazo absoluto é persistido: sair da tela, mudar de aba ou recarregar não pausa nem reinicia o relógio. Respostas enviadas no instante do término ou depois dele não contam. O tempo se esgota sem conquista; a tentativa seguinte tem novo sorteio e o mesmo nível. Formas conquistadas e XP são preservados. Cada acerto vale 10 XP, ou 5 se a dica foi utilizada. Os acertos também atualizam o histórico da aventura; conquistar uma forma não avança a floresta.
 
 `src/Forms.jsx` contém a interface. O progresso é armazenado no campo `forms` do mesmo personagem, sem apagar dados antigos.
+
+## Personagens
+
+O conjunto tem 12 avatares: oito humanos (homens, mulheres, meninos e meninas), Kumo (cachorro), Capitu (capivara), Atlas e Volt (robôs originais inspirados em Transformers). Os quatro IDs antigos continuam válidos; atualizar o app não apaga o personagem nem o progresso.
+
+`src/Avatar.jsx` desenha as ilustrações SVG. Os metadados ficam em `avatars`, em `src/lib/adventure.js`. `src/CharacterPicker.jsx` organiza a seleção em humanos, animais e robôs. A opção **Trocar personagem** no mapa altera só o campo avatar, preservando nome, XP, histórico, fases e formas conquistadas.

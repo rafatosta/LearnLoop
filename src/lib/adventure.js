@@ -1,9 +1,17 @@
 import { normalize } from './quiz.js';
 export const avatars = [
-  { id: 'water', name: 'Água', symbol: '波', color: '#62b9d7', motto: 'Calma para observar. Coragem para agir.' },
-  { id: 'fire', name: 'Fogo', symbol: '炎', color: '#e99050', motto: 'Cada tentativa alimenta sua chama.' },
-  { id: 'wind', name: 'Vento', symbol: '風', color: '#8dcaa0', motto: 'Aprenda, adapte-se e siga adiante.' },
-  { id: 'mist', name: 'Névoa', symbol: '霧', color: '#b5a6e5', motto: 'A clareza chega com a prática.' },
+  { id: 'water', name: 'Água', kind: 'man', group: 'human', description: 'Caçador adulto', symbol: '波', color: '#62b9d7', motto: 'Calma para observar. Coragem para agir.' },
+  { id: 'fire', name: 'Fogo', kind: 'woman', group: 'human', description: 'Caçadora adulta', symbol: '炎', color: '#e99050', motto: 'Cada tentativa alimenta sua chama.' },
+  { id: 'wind', name: 'Vento', kind: 'boy', group: 'human', description: 'Pequeno aprendiz', symbol: '風', color: '#8dcaa0', motto: 'Aprenda, adapte-se e siga adiante.' },
+  { id: 'mist', name: 'Névoa', kind: 'girl', group: 'human', description: 'Pequena aprendiz', symbol: '霧', color: '#b5a6e5', motto: 'A clareza chega com a prática.' },
+  { id: 'guardian', name: 'Ren', kind: 'man', group: 'human', description: 'Guardião adulto', symbol: '守', color: '#d2b16f', skin: '#926549', hair: '#222d34', motto: 'Sua força cresce a cada novo aprendizado.' },
+  { id: 'scout', name: 'Akira', kind: 'woman', group: 'human', description: 'Exploradora adulta', symbol: '光', color: '#d1889f', skin: '#b47750', hair: '#342834', motto: 'O conhecimento ilumina qualquer trilha.' },
+  { id: 'spark', name: 'Haru', kind: 'boy', group: 'human', description: 'Menino aventureiro', symbol: '星', color: '#ecba54', skin: '#e1a57c', hair: '#67402f', motto: 'Uma pequena tentativa pode virar uma grande conquista.' },
+  { id: 'moon', name: 'Yuna', kind: 'girl', group: 'human', description: 'Menina aventureira', symbol: '月', color: '#8fc1cf', skin: '#8c5d42', hair: '#202e37', motto: 'Curiosidade é o primeiro passo da aventura.' },
+  { id: 'dog', name: 'Kumo', kind: 'dog', group: 'animal', description: 'Cachorro companheiro', symbol: '✦', color: '#d99b64', motto: 'Faro para aprender. Energia para tentar de novo.' },
+  { id: 'capybara', name: 'Capitu', kind: 'capybara', group: 'animal', description: 'Capivara exploradora', symbol: '✿', color: '#a9c486', motto: 'Com calma e persistência, você chega mais longe.' },
+  { id: 'robot-red', name: 'Atlas', kind: 'robot', group: 'robot', description: 'Robô transformável', symbol: 'A', color: '#dd6b58', motto: 'Transforme cada erro em uma nova habilidade.' },
+  { id: 'robot-yellow', name: 'Volt', kind: 'robot', group: 'robot', description: 'Robô transformável', symbol: 'V', color: '#e9c452', motto: 'Ative sua curiosidade e avance para a próxima missão.' },
 ];
 export const chapters = [
   { name: 'A floresta das lanternas', subtitle: 'Encontre sua respiração', rank: 'Aprendiz', levels: [1,1,1,1,2], enemies: ['Sombra dos bambus', 'Espírito da trilha', 'Guardião da ponte', 'Eco da floresta', 'Sentinela das lanternas'] },
