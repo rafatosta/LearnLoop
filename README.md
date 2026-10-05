@@ -49,3 +49,13 @@ O Vite usa `base: '/LearnLoop/'`. `.github/workflows/pages.yml` testa, compila e
 Em Settings → Pages, a fonte deve ser **GitHub Actions**. O workflow tenta habilitar Pages automaticamente; se o token não tiver permissão para essa configuração inicial, um administrador precisa selecionar a fonte e executar novamente o workflow.
 
 Endereço esperado: https://rafatosta.github.io/LearnLoop/
+
+## As 13 formas: desafios de velocidade
+
+A trilha da Respiração do Sol é independente das vinte fases do mapa. Os nomes seguem a lista fornecida pelo usuário. `src/lib/forms.js` define os treze desafios, com dificuldade progressiva de nível 1 até cinco questões de nível 4 no último desafio.
+
+Cada tentativa sorteia cinco questões únicas do mesmo banco da aventura. O aluno deve acertar as cinco em **30 segundos no total**, tanto nas questões de alternativas quanto nas escritas. Alternativas enviam imediatamente; escritas usam Enter ou Responder. Erros voltam à fila em outro formato. O feedback curto aparece imediatamente, e todas as explicações ficam na revisão ao final, inclusive as questões pendentes.
+
+O prazo absoluto é persistido: sair da tela, mudar de aba ou recarregar não pausa nem reinicia o relógio. Respostas enviadas no instante do término ou depois dele não contam. O tempo se esgota sem conquista; a tentativa seguinte tem novo sorteio e o mesmo nível. Formas conquistadas e XP são preservados. Cada acerto vale 10 XP, ou 5 se a dica foi utilizada. Os acertos também atualizam o histórico da aventura; conquistar uma forma não avança a floresta.
+
+`src/Forms.jsx` contém a interface. O progresso é armazenado no campo `forms` do mesmo personagem, sem apagar dados antigos.
