@@ -1,0 +1,128 @@
+{
+  "id": "irregular-verbs",
+  "title": "Irregular Verbs",
+  "subtitle": "Aprenda as formas do passado",
+  "lesson": "Have → had; wear → wore; begin → began; think → thought; go → went; leave → left; give → gave; get → got; be → was/were; keep → kept.",
+  "questions": [
+    {
+      "id": "irregular-verbs-1",
+      "prompt": "Escreva o simple past de have.",
+      "answers": [
+        "had"
+      ],
+      "explanation": "have → had: ter.",
+      "origin": "pdf"
+    },
+    {
+      "id": "irregular-verbs-2",
+      "prompt": "Escreva o simple past de wear.",
+      "answers": [
+        "wore"
+      ],
+      "explanation": "wear → wore: vestir.",
+      "origin": "pdf"
+    },
+    {
+      "id": "irregular-verbs-3",
+      "prompt": "Escreva o simple past de begin.",
+      "answers": [
+        "began"
+      ],
+      "explanation": "begin → began: começar.",
+      "origin": "pdf"
+    },
+    {
+      "id": "irregular-verbs-4",
+      "prompt": "Escreva o simple past de think.",
+      "answers": [
+        "thought"
+      ],
+      "explanation": "think → thought: pensar.",
+      "origin": "pdf"
+    },
+    {
+      "id": "irregular-verbs-5",
+      "prompt": "Escreva o simple past de go.",
+      "answers": [
+        "went"
+      ],
+      "explanation": "go → went: ir.",
+      "origin": "pdf"
+    },
+    {
+      "id": "irregular-verbs-6",
+      "prompt": "Escreva o simple past de leave.",
+      "answers": [
+        "left"
+      ],
+      "explanation": "leave → left: sair/deixar.",
+      "origin": "pdf"
+    },
+    {
+      "id": "irregular-verbs-7",
+      "prompt": "Escreva o simple past de give.",
+      "answers": [
+        "gave"
+      ],
+      "explanation": "give → gave: dar.",
+      "origin": "pdf"
+    },
+    {
+      "id": "irregular-verbs-8",
+      "prompt": "Escreva o simple past de get.",
+      "answers": [
+        "got"
+      ],
+      "explanation": "get → got: conseguir/receber.",
+      "origin": "pdf"
+    },
+    {
+      "id": "irregular-verbs-9",
+      "prompt": "Escreva o simple past de be.",
+      "answers": [
+        "was / were",
+        "was, were",
+        "was and were",
+        "was were"
+      ],
+      "explanation": "be → was / were: ser/estar.",
+      "origin": "pdf"
+    },
+    {
+      "id": "irregular-verbs-10",
+      "prompt": "Escreva o simple past de keep.",
+      "answers": [
+        "kept"
+      ],
+      "explanation": "keep → kept: manter/guardar.",
+      "origin": "pdf"
+    },
+    {
+      "id": "irregular-verbs-11",
+      "prompt": "Complete: They ___ home at six yesterday. (leave)",
+      "answers": [
+        "left"
+      ],
+      "explanation": "Leave → left.",
+      "origin": "extra"
+    },
+    {
+      "id": "irregular-verbs-12",
+      "prompt": "Complete: I ___ a present yesterday. (get)",
+      "answers": [
+        "got"
+      ],
+      "explanation": "Get → got.",
+      "origin": "extra"
+    },
+    {
+      "id": "irregular-verbs-13",
+      "prompt": "Complete: She ___ me a book last night. (give)",
+      "answers": [
+        "gave"
+      ],
+      "explanation": "Give → gave.",
+      "origin": "extra"
+    }
+  ]
+}

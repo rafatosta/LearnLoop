@@ -1,0 +1,188 @@
+{
+  "id": "quantifiers",
+  "title": "Quantifiers",
+  "subtitle": "Some, any e quantidades",
+  "lesson": "Some: afirmativas e ofertas. Any: perguntas e negativas. A few / how many: contáveis no plural. A little / how much: incontáveis.",
+  "questions": [
+    {
+      "id": "quantifiers-1",
+      "prompt": "My sister has ___ friends at school.",
+      "answers": [
+        "some"
+      ],
+      "explanation": "Some é usado em afirmativas; any em perguntas e negativas.",
+      "origin": "pdf"
+    },
+    {
+      "id": "quantifiers-2",
+      "prompt": "We don’t have ___ rice for lunch.",
+      "answers": [
+        "any"
+      ],
+      "explanation": "Some é usado em afirmativas; any em perguntas e negativas.",
+      "origin": "pdf"
+    },
+    {
+      "id": "quantifiers-3",
+      "prompt": "Are there ___ bananas in the kitchen?",
+      "answers": [
+        "any"
+      ],
+      "explanation": "Some é usado em afirmativas; any em perguntas e negativas.",
+      "origin": "pdf"
+    },
+    {
+      "id": "quantifiers-4",
+      "prompt": "There is ___ cheese in the sandwich.",
+      "answers": [
+        "some"
+      ],
+      "explanation": "Some é usado em afirmativas; any em perguntas e negativas.",
+      "origin": "pdf"
+    },
+    {
+      "id": "quantifiers-5",
+      "prompt": "There are ___ apples on the plate.",
+      "answers": [
+        "a few"
+      ],
+      "explanation": "A few acompanha contáveis no plural; a little acompanha incontáveis.",
+      "origin": "pdf"
+    },
+    {
+      "id": "quantifiers-6",
+      "prompt": "There is ___ milk in the cup.",
+      "answers": [
+        "a little"
+      ],
+      "explanation": "A few acompanha contáveis no plural; a little acompanha incontáveis.",
+      "origin": "pdf"
+    },
+    {
+      "id": "quantifiers-7",
+      "prompt": "I have ___ pencils in my pencil case.",
+      "answers": [
+        "a few"
+      ],
+      "explanation": "A few acompanha contáveis no plural; a little acompanha incontáveis.",
+      "origin": "pdf"
+    },
+    {
+      "id": "quantifiers-8",
+      "prompt": "We need ___ sugar for the cake.",
+      "answers": [
+        "a little"
+      ],
+      "explanation": "A few acompanha contáveis no plural; a little acompanha incontáveis.",
+      "origin": "pdf"
+    },
+    {
+      "id": "quantifiers-9",
+      "prompt": "Leo: ___ sandwiches do we have?",
+      "answers": [
+        "how many"
+      ],
+      "explanation": "Many/few: contáveis. Much/little: incontáveis. Any: negativas. Some também é usado em ofertas, como “Would you like…?”.",
+      "origin": "pdf"
+    },
+    {
+      "id": "quantifiers-10",
+      "prompt": "Mia: Only three. We have ___ sandwiches.",
+      "answers": [
+        "a few"
+      ],
+      "explanation": "Many/few: contáveis. Much/little: incontáveis. Any: negativas. Some também é usado em ofertas, como “Would you like…?”.",
+      "origin": "pdf"
+    },
+    {
+      "id": "quantifiers-11",
+      "prompt": "Leo: And ___ juice is there?",
+      "answers": [
+        "how much"
+      ],
+      "explanation": "Many/few: contáveis. Much/little: incontáveis. Any: negativas. Some também é usado em ofertas, como “Would you like…?”.",
+      "origin": "pdf"
+    },
+    {
+      "id": "quantifiers-12",
+      "prompt": "Mia: Just half a glass. There is ___ juice.",
+      "answers": [
+        "a little"
+      ],
+      "explanation": "Many/few: contáveis. Much/little: incontáveis. Any: negativas. Some também é usado em ofertas, como “Would you like…?”.",
+      "origin": "pdf"
+    },
+    {
+      "id": "quantifiers-13",
+      "prompt": "There aren’t ___ eggs in the fridge.",
+      "answers": [
+        "any"
+      ],
+      "explanation": "Many/few: contáveis. Much/little: incontáveis. Any: negativas. Some também é usado em ofertas, como “Would you like…?”.",
+      "origin": "pdf"
+    },
+    {
+      "id": "quantifiers-14",
+      "prompt": "I need ___ water. Just a small amount.",
+      "answers": [
+        "a little"
+      ],
+      "explanation": "Many/few: contáveis. Much/little: incontáveis. Any: negativas. Some também é usado em ofertas, como “Would you like…?”.",
+      "origin": "pdf"
+    },
+    {
+      "id": "quantifiers-15",
+      "prompt": "___ pencils are on the desk?",
+      "answers": [
+        "how many"
+      ],
+      "explanation": "Many/few: contáveis. Much/little: incontáveis. Any: negativas. Some também é usado em ofertas, como “Would you like…?”.",
+      "origin": "pdf"
+    },
+    {
+      "id": "quantifiers-16",
+      "prompt": "Would you like ___ orange juice?",
+      "answers": [
+        "some"
+      ],
+      "explanation": "Many/few: contáveis. Much/little: incontáveis. Any: negativas. Some também é usado em ofertas, como “Would you like…?”.",
+      "origin": "pdf"
+    },
+    {
+      "id": "quantifiers-17",
+      "prompt": "___ money do we need?",
+      "answers": [
+        "how much"
+      ],
+      "explanation": "Observe o tipo de substantivo e se a frase é afirmativa, negativa ou interrogativa.",
+      "origin": "extra"
+    },
+    {
+      "id": "quantifiers-18",
+      "prompt": "Do you have ___ brothers?",
+      "answers": [
+        "any"
+      ],
+      "explanation": "Observe o tipo de substantivo e se a frase é afirmativa, negativa ou interrogativa.",
+      "origin": "extra"
+    },
+    {
+      "id": "quantifiers-19",
+      "prompt": "I have ___ books. (uma pequena quantidade)",
+      "answers": [
+        "a few"
+      ],
+      "explanation": "Observe o tipo de substantivo e se a frase é afirmativa, negativa ou interrogativa.",
+      "origin": "extra"
+    },
+    {
+      "id": "quantifiers-20",
+      "prompt": "We need ___ water. (uma quantidade não especificada)",
+      "answers": [
+        "some"
+      ],
+      "explanation": "Observe o tipo de substantivo e se a frase é afirmativa, negativa ou interrogativa.",
+      "origin": "extra"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "verb-be",
+  "title": "Verb Be",
+  "subtitle": "Was, were, wasn’t e weren’t",
+  "lesson": "I/he/she/it: was. You/we/they: were. Negativas: wasn’t / weren’t. Perguntas: Was/Were + sujeito? Com be, não use did.",
+  "questions": [
+    {
+      "id": "verb-be-1",
+      "prompt": "I ___ at school yesterday.",
+      "answers": [
+        "was"
+      ],
+      "explanation": "I/he/she/it usam was; you/we/they usam were.",
+      "origin": "pdf"
+    },
+    {
+      "id": "verb-be-2",
+      "prompt": "The children ___ in the park.",
+      "answers": [
+        "were"
+      ],
+      "explanation": "I/he/she/it usam was; you/we/they usam were.",
+      "origin": "pdf"
+    },
+    {
+      "id": "verb-be-3",
+      "prompt": "My mother ___ happy last night.",
+      "answers": [
+        "was"
+      ],
+      "explanation": "I/he/she/it usam was; you/we/they usam were.",
+      "origin": "pdf"
+    },
+    {
+      "id": "verb-be-4",
+      "prompt": "We ___ tired after the trip.",
+      "answers": [
+        "were"
+      ],
+      "explanation": "I/he/she/it usam was; you/we/they usam were.",
+      "origin": "pdf"
+    },
+    {
+      "id": "verb-be-5",
+      "prompt": "You ___ late for class.",
+      "answers": [
+        "were"
+      ],
+      "explanation": "I/he/she/it usam was; you/we/they usam were.",
+      "origin": "pdf"
+    },
+    {
+      "id": "verb-be-6",
+      "prompt": "It ___ cold yesterday.",
+      "answers": [
+        "was"
+      ],
+      "explanation": "I/he/she/it usam was; you/we/they usam were.",
+      "origin": "pdf"
+    },
+    {
+      "id": "verb-be-7",
+      "prompt": "Passe para a negativa: He was at home.",
+      "answers": [
+        "He wasn't at home.",
+        "He was not at home."
+      ],
+      "explanation": "Be não usa didn’t.",
+      "origin": "extra"
+    },
+    {
+      "id": "verb-be-8",
+      "prompt": "Transforme em pergunta: They were at school.",
+      "answers": [
+        "Were they at school?"
+      ],
+      "explanation": "Inverta were e o sujeito. Não use did.",
+      "origin": "extra"
+    },
+    {
+      "id": "verb-be-9",
+      "prompt": "Resposta curta afirmativa: Was she tired?",
+      "answers": [
+        "Yes, she was."
+      ],
+      "explanation": "Repita was na resposta curta.",
+      "origin": "extra"
+    },
+    {
+      "id": "verb-be-10",
+      "prompt": "Complete: They ___ tired. (were, na negativa)",
+      "answers": [
+        "weren't",
+        "were not"
+      ],
+      "explanation": "Were not = weren’t.",
+      "origin": "extra"
+    }
+  ]
+}

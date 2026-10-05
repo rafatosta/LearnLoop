@@ -1,0 +1,155 @@
+{
+  "id": "simple-past",
+  "title": "Simple Past",
+  "subtitle": "Afirmações, negativas e perguntas",
+  "lesson": "Afirmativa: verbo no passado. Negativa: didn’t + forma básica. Pergunta: Did + sujeito + forma básica? Marcadores: yesterday, last night, last year.",
+  "questions": [
+    {
+      "id": "simple-past-1",
+      "prompt": "Passe para a negativa: Lucas went to the park.",
+      "answers": [
+        "Lucas didn't go to the park.",
+        "Lucas did not go to the park."
+      ],
+      "explanation": "Depois de didn’t, go volta à forma básica.",
+      "origin": "pdf"
+    },
+    {
+      "id": "simple-past-2",
+      "prompt": "Passe para a negativa: They had lunch at school.",
+      "answers": [
+        "They didn't have lunch at school.",
+        "They did not have lunch at school."
+      ],
+      "explanation": "Had volta a have depois de didn’t.",
+      "origin": "pdf"
+    },
+    {
+      "id": "simple-past-3",
+      "prompt": "Transforme em pergunta: You went to the beach yesterday.",
+      "answers": [
+        "Did you go to the beach yesterday?"
+      ],
+      "explanation": "Did + sujeito + verbo na forma básica.",
+      "origin": "pdf"
+    },
+    {
+      "id": "simple-past-4",
+      "prompt": "Transforme em pergunta: She gave you a pencil.",
+      "answers": [
+        "Did she give you a pencil?"
+      ],
+      "explanation": "Gave volta a give depois de did.",
+      "origin": "pdf"
+    },
+    {
+      "id": "simple-past-5",
+      "prompt": "I have breakfast at seven every day. → Use yesterday.",
+      "answers": [
+        "I had breakfast at seven yesterday."
+      ],
+      "explanation": "Use a forma do passado na afirmativa e o marcador de tempo solicitado.",
+      "origin": "pdf"
+    },
+    {
+      "id": "simple-past-6",
+      "prompt": "She wears a blue dress every Sunday. → Use last Sunday.",
+      "answers": [
+        "She wore a blue dress last Sunday."
+      ],
+      "explanation": "Use a forma do passado na afirmativa e o marcador de tempo solicitado.",
+      "origin": "pdf"
+    },
+    {
+      "id": "simple-past-7",
+      "prompt": "The lesson begins at eight every morning. → Use yesterday morning.",
+      "answers": [
+        "The lesson began at eight yesterday morning."
+      ],
+      "explanation": "Use a forma do passado na afirmativa e o marcador de tempo solicitado.",
+      "origin": "pdf"
+    },
+    {
+      "id": "simple-past-8",
+      "prompt": "Yesterday, I ___ breakfast at seven.",
+      "answers": [
+        "had"
+      ],
+      "explanation": "Esta é a forma irregular do verbo no simple past.",
+      "origin": "pdf"
+    },
+    {
+      "id": "simple-past-9",
+      "prompt": "She ___ a blue dress last Sunday.",
+      "answers": [
+        "wore"
+      ],
+      "explanation": "Esta é a forma irregular do verbo no simple past.",
+      "origin": "pdf"
+    },
+    {
+      "id": "simple-past-10",
+      "prompt": "The lesson ___ at eight yesterday morning.",
+      "answers": [
+        "began"
+      ],
+      "explanation": "Esta é a forma irregular do verbo no simple past.",
+      "origin": "pdf"
+    },
+    {
+      "id": "simple-past-11",
+      "prompt": "We ___ about the answer last night.",
+      "answers": [
+        "thought"
+      ],
+      "explanation": "Esta é a forma irregular do verbo no simple past.",
+      "origin": "pdf"
+    },
+    {
+      "id": "simple-past-12",
+      "prompt": "They ___ to the park last Saturday.",
+      "answers": [
+        "went"
+      ],
+      "explanation": "Esta é a forma irregular do verbo no simple past.",
+      "origin": "pdf"
+    },
+    {
+      "id": "simple-past-13",
+      "prompt": "Complete: Did they ___ the secret?",
+      "answers": [
+        "keep"
+      ],
+      "explanation": "Depois de did, use a forma básica.",
+      "origin": "extra"
+    },
+    {
+      "id": "simple-past-14",
+      "prompt": "Complete: She didn’t ___ a jacket.",
+      "answers": [
+        "wear"
+      ],
+      "explanation": "Depois de didn’t, use wear, não wore.",
+      "origin": "extra"
+    },
+    {
+      "id": "simple-past-15",
+      "prompt": "Passe para o passado: We play football. (yesterday)",
+      "answers": [
+        "We played football yesterday."
+      ],
+      "explanation": "Play é regular: acrescentamos -ed.",
+      "origin": "extra"
+    },
+    {
+      "id": "simple-past-16",
+      "prompt": "Resposta curta negativa: Did you go to school?",
+      "answers": [
+        "No, I didn't.",
+        "No, I did not."
+      ],
+      "explanation": "Use did na resposta curta.",
+      "origin": "extra"
+    }
+  ]
+}

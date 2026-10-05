@@ -1,0 +1,144 @@
+{
+  "id": "climate-of-brazil",
+  "title": "Climate of Brazil",
+  "subtitle": "Leitura e interpretação",
+  "lesson": "Leia o texto e observe as diferenças de temperatura e chuva entre as regiões brasileiras.",
+  "questions": [
+    {
+      "id": "climate-of-brazil-1",
+      "prompt": "According to the text, which statement is correct?",
+      "answers": [
+        "Many tropical areas have a rainy season and a dry season."
+      ],
+      "explanation": "O texto descreve essas duas estações em muitas áreas tropicais.",
+      "origin": "pdf",
+      "options": [
+        "Many tropical areas have a rainy season and a dry season.",
+        "All Brazilian regions have the same climate.",
+        "The Amazon region has low and irregular rainfall.",
+        "Southern Brazil has high temperatures throughout every winter."
+      ]
+    },
+    {
+      "id": "climate-of-brazil-2",
+      "prompt": "What is the difference between rainfall in the Amazon and in semiarid northeastern Brazil?",
+      "answers": [
+        "The Amazon has abundant rainfall; semiarid areas have low and irregular rainfall."
+      ],
+      "explanation": "Na Amazônia a chuva é abundante; nas áreas semiáridas é escassa e irregular.",
+      "origin": "pdf",
+      "options": [
+        "The Amazon is dry; semiarid areas have abundant rain.",
+        "The Amazon has abundant rainfall; semiarid areas have low and irregular rainfall.",
+        "Both regions have abundant rainfall all year.",
+        "Both regions have no rainfall."
+      ]
+    },
+    {
+      "id": "climate-of-brazil-3",
+      "prompt": "Which region has an equatorial climate?",
+      "answers": [
+        "The Amazon region."
+      ],
+      "explanation": "A região amazônica tem clima equatorial.",
+      "origin": "extra",
+      "options": [
+        "Southern Brazil.",
+        "The semiarid Northeast.",
+        "The Amazon region.",
+        "The whole country."
+      ]
+    },
+    {
+      "id": "climate-of-brazil-4",
+      "prompt": "What climate occurs in southern Brazil?",
+      "answers": [
+        "Subtropical."
+      ],
+      "explanation": "O Sul apresenta clima subtropical.",
+      "origin": "extra",
+      "options": [
+        "Equatorial.",
+        "Semiarid.",
+        "Polar.",
+        "Subtropical."
+      ]
+    },
+    {
+      "id": "climate-of-brazil-5",
+      "prompt": "In semiarid areas, rainfall is low and ___.",
+      "answers": [
+        "irregular"
+      ],
+      "explanation": "As chuvas têm baixa quantidade e distribuição irregular.",
+      "origin": "extra",
+      "options": [
+        "irregular",
+        "abundant",
+        "constant",
+        "frozen"
+      ]
+    },
+    {
+      "id": "climate-of-brazil-6",
+      "prompt": "Which Brazilian region has colder winters, according to the text?",
+      "answers": [
+        "Southern Brazil."
+      ],
+      "explanation": "Os invernos no Sul são mais frios.",
+      "origin": "extra",
+      "options": [
+        "The Amazon region.",
+        "Southern Brazil.",
+        "The tropical areas.",
+        "All regions equally."
+      ]
+    },
+    {
+      "id": "climate-of-brazil-7",
+      "prompt": "Translate “crops” into Portuguese.",
+      "answers": [
+        "plantações"
+      ],
+      "explanation": "Crops significa plantações.",
+      "origin": "extra",
+      "options": [
+        "animais",
+        "chuva",
+        "plantações",
+        "invernos"
+      ]
+    },
+    {
+      "id": "climate-of-brazil-8",
+      "prompt": "Translate “humid” into Portuguese.",
+      "answers": [
+        "úmido"
+      ],
+      "explanation": "Humid significa úmido.",
+      "origin": "extra",
+      "options": [
+        "seco",
+        "frio",
+        "quente",
+        "úmido"
+      ]
+    },
+    {
+      "id": "climate-of-brazil-9",
+      "prompt": "Does Brazil have the same climate everywhere?",
+      "answers": [
+        "No."
+      ],
+      "explanation": "O texto ressalta a diversidade de climas.",
+      "origin": "extra",
+      "options": [
+        "No.",
+        "Yes.",
+        "Only in winter.",
+        "Only in summer."
+      ]
+    }
+  ],
+  "reading": "Brazil is a large country with different climates. Temperature and rainfall vary from one region to another. Some places are usually hot and humid, while others are drier or have colder winters.The Amazon region has an equatorial climate. It is usually hot throughout the year, and rainfall is abundant. These warm and humid conditions help support the rainforest.The tropical climate occurs in a large part of Brazil. Many tropical areas have two main seasons: a rainy season and a dry season. Temperatures are generally high, but the amount of rain changes during the year.Parts of northeastern Brazil have a semiarid climate. In these areas, rainfall is low and irregular. Long periods without rain can make it difficult for people to grow crops and raise animals.Southern Brazil has a subtropical climate. Winters are colder than in most other Brazilian regions. On some winter days, temperatures can be very low.These differences show that Brazil does not have the same climate everywhere. Vocabulary: rainfall = chuva; humid = úmido; dry = seco; crops = plantações; raise animals = criar animais."
+}
