@@ -1,6 +1,28 @@
-# LearnLoop
+# LearnLoop Chronicles
 
-Plataforma de exercícios de inglês em React + Vite + Tailwind CSS. Interface em português, prática em inglês e cinco módulos baseados em **Quantifiers_AND Simple_Past_.pptx.pdf**, de Eli Hungria.
+Aventura de inglês inspirada em Demon Slayer, com personagens e inimigos originais. React + Vite + Tailwind CSS, quatro avatares, quatro capítulos e vinte fases. A versão original com 68 exercícios continua em **Prática livre**, com seu armazenamento anterior preservado.
+
+## Aventura
+
+O banco `src/content/adventure.json` tem 120 questões-base, 30 por nível, com seis de cada assunto em cada nível. Cada questão tem `id`, `level`, `topic`, `promptPt`, `promptEn`, `answers`, `explanation`, `distractors`, `source` e `responseLanguage`. O enunciado muda de idioma; a resposta continua na língua pedida pela tarefa. Frases inglesas são mantidas nos exercícios de completar e transformar, mesmo com instruções em português.
+
+Cada fase sorteia cinco questões únicas, misturando revisão com questões ainda não praticadas. Os capítulos usam níveis 1–2, 1–2, 2–3 e 3–4. O último confronto usa cinco questões de nível 4. Fases futuras ficam bloqueadas até concluir a atual. Não é necessário ver todas as 120 questões para terminar o mapa: o banco dá variedade às rodadas.
+
+Questões de níveis 1 e 2 alternam entre escolha e escrita; níveis 3 e 4 começam escritos. Após uma tentativa com alternativas, uma revisão futura prioriza escrita. Erros voltam ao fim da fila com formato e idioma alternados, oferecendo apoio para aprender. O aluno pode consultar a tradução e o texto de leitura. Toda resposta, certa ou errada, recebe explicação. Questões escritas em revisão têm dica opcional.
+
+Acertos valem 10 XP; vencer uma fase vale 25 XP. A vitória exige acertar todas as cinco questões. Sem vidas limitadas. O histórico registra acertos por formato. XP representa a prática; a fase concluída define a patente e a dificuldade seguinte.
+
+Nome, avatar, sorteio, fila, feedback e histórico são salvos em `learnloop-adventure-v1` no localStorage. Criar outro personagem exige confirmação e reinicia apenas a aventura. Sem conta e sem sincronização entre dispositivos.
+
+## Estrutura e edição
+
+- `src/lib/adventure.js`: regras, fases, sorteio, correção e validação do progresso.
+- `src/main.jsx`: personagem, mapa e confronto.
+- `src/adventure.css`: interface responsiva, ilustrações SVG originais e avatares.
+- `src/Classic.jsx`: prática livre anterior.
+- `src/content/*.json`: questões editáveis.
+
+Ao alterar IDs ou esquema da aventura, atualize a versão e a chave do armazenamento. Respostas escritas são comparadas com `answers`, ignorando maiúsculas, acentos, espaços extras e pontuação. Acrescente variantes válidas à lista: a correção não usa inteligência artificial.
 
 ## Executar
 

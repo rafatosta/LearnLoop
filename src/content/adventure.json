@@ -1,0 +1,2207 @@
+{
+  "version": 1,
+  "reading": "Brazil is a large country with different climates. Temperature and rainfall vary from one region to another. Some places are usually hot and humid, while others are drier or have colder winters.The Amazon region has an equatorial climate. It is usually hot throughout the year, and rainfall is abundant. These warm and humid conditions help support the rainforest.The tropical climate occurs in a large part of Brazil. Many tropical areas have two main seasons: a rainy season and a dry season. Temperatures are generally high, but the amount of rain changes during the year.Parts of northeastern Brazil have a semiarid climate. In these areas, rainfall is low and irregular. Long periods without rain can make it difficult for people to grow crops and raise animals.Southern Brazil has a subtropical climate. Winters are colder than in most other Brazilian regions. On some winter days, temperatures can be very low.These differences show that Brazil does not have the same climate everywhere. Vocabulary: rainfall = chuva; humid = úmido; dry = seco; crops = plantações; raise animals = criar animais.",
+  "questions": [
+    {
+      "id": "l1-quantifiers-1",
+      "level": 1,
+      "topic": "quantifiers",
+      "promptPt": "Responda em inglês. Complete, reescreva ou faça a pergunta solicitada:\nThe hunter has ___ friends.",
+      "promptEn": "The hunter has ___ friends.",
+      "answers": [
+        "some"
+      ],
+      "explanation": "Some acompanha substantivos contáveis no plural em afirmativas.",
+      "distractors": [
+        "any",
+        "how much",
+        "a little"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l1-quantifiers-2",
+      "level": 1,
+      "topic": "quantifiers",
+      "promptPt": "Responda em inglês. Complete, reescreva ou faça a pergunta solicitada:\nWe don’t have ___ rice.",
+      "promptEn": "We don’t have ___ rice.",
+      "answers": [
+        "any"
+      ],
+      "explanation": "Em negativas, any indica ausência de uma quantidade.",
+      "distractors": [
+        "some",
+        "a few",
+        "how many"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l1-quantifiers-3",
+      "level": 1,
+      "topic": "quantifiers",
+      "promptPt": "Responda em inglês. Complete, reescreva ou faça a pergunta solicitada:\nAre there ___ bananas?",
+      "promptEn": "Are there ___ bananas?",
+      "answers": [
+        "any"
+      ],
+      "explanation": "Any é comum em perguntas sobre uma quantidade.",
+      "distractors": [
+        "some",
+        "a little",
+        "how much"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l1-quantifiers-4",
+      "level": 1,
+      "topic": "quantifiers",
+      "promptPt": "Responda em inglês. Complete, reescreva ou faça a pergunta solicitada:\nThere is ___ cheese in the sandwich.",
+      "promptEn": "There is ___ cheese in the sandwich.",
+      "answers": [
+        "some"
+      ],
+      "explanation": "Cheese é incontável; some é adequado nesta afirmativa.",
+      "distractors": [
+        "a few",
+        "how many",
+        "any"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l1-quantifiers-5",
+      "level": 1,
+      "topic": "quantifiers",
+      "promptPt": "Responda em inglês. Complete, reescreva ou faça a pergunta solicitada:\nThere are ___ apples. (uma pequena quantidade)",
+      "promptEn": "There are ___ apples. (a small quantity)",
+      "answers": [
+        "a few"
+      ],
+      "explanation": "Apples é contável no plural: use a few para uma pequena quantidade.",
+      "distractors": [
+        "a little",
+        "how much",
+        "any"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l1-quantifiers-6",
+      "level": 1,
+      "topic": "quantifiers",
+      "promptPt": "Responda em inglês. Complete, reescreva ou faça a pergunta solicitada:\nThere is ___ milk. (uma pequena quantidade)",
+      "promptEn": "There is ___ milk. (a small quantity)",
+      "answers": [
+        "a little"
+      ],
+      "explanation": "Milk é incontável: uma pequena quantidade é a little.",
+      "distractors": [
+        "a few",
+        "how many",
+        "any"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-quantifiers-1",
+      "level": 2,
+      "topic": "quantifiers",
+      "promptPt": "Responda em inglês. Complete, reescreva ou faça a pergunta solicitada:\n___ swords do we have?",
+      "promptEn": "___ swords do we have?",
+      "answers": [
+        "How many"
+      ],
+      "explanation": "Swords é contável no plural: a pergunta usa how many.",
+      "distractors": [
+        "How much",
+        "A little",
+        "Any"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-quantifiers-2",
+      "level": 2,
+      "topic": "quantifiers",
+      "promptPt": "Responda em inglês. Complete, reescreva ou faça a pergunta solicitada:\n___ water is there?",
+      "promptEn": "___ water is there?",
+      "answers": [
+        "How much"
+      ],
+      "explanation": "Water é incontável: a pergunta usa how much.",
+      "distractors": [
+        "How many",
+        "A few",
+        "Any"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-quantifiers-3",
+      "level": 2,
+      "topic": "quantifiers",
+      "promptPt": "Responda em inglês. Complete, reescreva ou faça a pergunta solicitada:\nWould you like ___ tea?",
+      "promptEn": "Would you like ___ tea?",
+      "answers": [
+        "some"
+      ],
+      "explanation": "Some pode ser usado em perguntas que são ofertas, como Would you like…?",
+      "distractors": [
+        "any",
+        "a few",
+        "how many"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-quantifiers-4",
+      "level": 2,
+      "topic": "quantifiers",
+      "promptPt": "Responda em inglês. Complete, reescreva ou faça a pergunta solicitada:\nThe apprentice needs ___ sugar. (uma pequena quantidade)",
+      "promptEn": "The apprentice needs ___ sugar. (a small quantity)",
+      "answers": [
+        "a little"
+      ],
+      "explanation": "Sugar é incontável: a little significa um pouco de.",
+      "distractors": [
+        "a few",
+        "how many",
+        "any"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-quantifiers-5",
+      "level": 2,
+      "topic": "quantifiers",
+      "promptPt": "Responda em inglês. Complete, reescreva ou faça a pergunta solicitada:\nWe have ___ pencils. (uma pequena quantidade)",
+      "promptEn": "We have ___ pencils. (a small quantity)",
+      "answers": [
+        "a few"
+      ],
+      "explanation": "Pencils são unidades contáveis: a few.",
+      "distractors": [
+        "a little",
+        "how much",
+        "any"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-quantifiers-6",
+      "level": 2,
+      "topic": "quantifiers",
+      "promptPt": "Responda em inglês. Complete, reescreva ou faça a pergunta solicitada:\nThere aren’t ___ eggs at the camp.",
+      "promptEn": "There aren’t ___ eggs at the camp.",
+      "answers": [
+        "any"
+      ],
+      "explanation": "Eggs é contável no plural, mas a negativa pede any.",
+      "distractors": [
+        "some",
+        "a little",
+        "how much"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-quantifiers-1",
+      "level": 3,
+      "topic": "quantifiers",
+      "promptPt": "Responda em inglês. Complete, reescreva ou faça a pergunta solicitada:\nThe hunter carries ___ arrows, but only ___ water. (small quantities)",
+      "promptEn": "The hunter carries ___ arrows, but only ___ water. (small quantities)",
+      "answers": [
+        "a few / a little",
+        "a few, a little",
+        "a few and a little"
+      ],
+      "explanation": "Arrows é contável no plural; water é incontável. Use a few e a little, nessa ordem.",
+      "distractors": [
+        "a little / a few",
+        "any / how many",
+        "how much / some"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-quantifiers-2",
+      "level": 3,
+      "topic": "quantifiers",
+      "promptPt": "Responda em inglês. Complete, reescreva ou faça a pergunta solicitada:\n___ money do we need for the journey?",
+      "promptEn": "___ money do we need for the journey?",
+      "answers": [
+        "How much"
+      ],
+      "explanation": "Money é incontável, mesmo quando contamos moedas ou notas.",
+      "distractors": [
+        "How many",
+        "A few",
+        "Some"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-quantifiers-3",
+      "level": 3,
+      "topic": "quantifiers",
+      "promptPt": "Responda em inglês. Complete, reescreva ou faça a pergunta solicitada:\n___ hunters are ready?",
+      "promptEn": "___ hunters are ready?",
+      "answers": [
+        "How many"
+      ],
+      "explanation": "Hunters é contável no plural.",
+      "distractors": [
+        "How much",
+        "A little",
+        "Any"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-quantifiers-4",
+      "level": 3,
+      "topic": "quantifiers",
+      "promptPt": "Responda em inglês. Complete, reescreva ou faça a pergunta solicitada:\nWe have ___ food, but we don’t have ___ juice. (quantidades não especificadas)",
+      "promptEn": "We have ___ food, but we don’t have ___ juice. (unspecified quantities)",
+      "answers": [
+        "some / any",
+        "some, any",
+        "some and any"
+      ],
+      "explanation": "Some na afirmativa; any na negativa. Food e juice são incontáveis.",
+      "distractors": [
+        "any / some",
+        "a few / any",
+        "how much / how many"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-quantifiers-5",
+      "level": 3,
+      "topic": "quantifiers",
+      "promptPt": "Responda em inglês. Complete, reescreva ou faça a pergunta solicitada:\nDo you have ___ brothers?",
+      "promptEn": "Do you have ___ brothers?",
+      "answers": [
+        "any"
+      ],
+      "explanation": "Any é usado nesta pergunta; brothers é contável no plural.",
+      "distractors": [
+        "a little",
+        "how much",
+        "a few of"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-quantifiers-6",
+      "level": 3,
+      "topic": "quantifiers",
+      "promptPt": "Responda em inglês. Complete, reescreva ou faça a pergunta solicitada:\nThe camp has ___ tents. (uma pequena quantidade)",
+      "promptEn": "The camp has ___ tents. (a small quantity)",
+      "answers": [
+        "a few"
+      ],
+      "explanation": "Tents é contável no plural, então a few expressa pequena quantidade.",
+      "distractors": [
+        "a little",
+        "how much",
+        "any"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-quantifiers-1",
+      "level": 4,
+      "topic": "quantifiers",
+      "promptPt": "Reescreva indicando uma pequena quantidade: The hunter has water.",
+      "promptEn": "Rewrite with a small quantity: The hunter has water.",
+      "answers": [
+        "The hunter has a little water."
+      ],
+      "explanation": "Water é incontável. Coloque a little antes de water.",
+      "distractors": [
+        "The hunter has a few water.",
+        "The hunter have a little water.",
+        "The hunter has how much water."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-quantifiers-2",
+      "level": 4,
+      "topic": "quantifiers",
+      "promptPt": "Faça uma pergunta sobre a quantidade: There are five swords.",
+      "promptEn": "Ask about the quantity: There are five swords.",
+      "answers": [
+        "How many swords are there?"
+      ],
+      "explanation": "How many + contável plural + are there?",
+      "distractors": [
+        "How much swords are there?",
+        "How many sword is there?",
+        "How many swords there are?"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-quantifiers-3",
+      "level": 4,
+      "topic": "quantifiers",
+      "promptPt": "Faça uma pergunta sobre a quantidade: There is milk in the cup.",
+      "promptEn": "Ask about the quantity: There is milk in the cup.",
+      "answers": [
+        "How much milk is there?"
+      ],
+      "explanation": "How much + incontável + is there?",
+      "distractors": [
+        "How many milk is there?",
+        "How much milk are there?",
+        "How much milk there is?"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-quantifiers-4",
+      "level": 4,
+      "topic": "quantifiers",
+      "promptPt": "Responda em inglês. Complete, reescreva ou faça a pergunta solicitada:\nCorrect the sentence: We don’t have some rice.",
+      "promptEn": "Correct the sentence: We don’t have some rice.",
+      "answers": [
+        "We don't have any rice.",
+        "We do not have any rice."
+      ],
+      "explanation": "Nesta negativa, troque some por any e mantenha o restante da frase.",
+      "distractors": [
+        "We don’t have a few rice.",
+        "We don’t has any rice.",
+        "We have any rice."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-quantifiers-5",
+      "level": 4,
+      "topic": "quantifiers",
+      "promptPt": "Traduza para o inglês: Temos algumas maçãs.",
+      "promptEn": "Translate: Temos algumas maçãs.",
+      "answers": [
+        "We have some apples."
+      ],
+      "explanation": "Some acompanha apples, contável no plural; we usa have.",
+      "distractors": [
+        "We have a little apples.",
+        "We has some apples.",
+        "We have some apple."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-quantifiers-6",
+      "level": 4,
+      "topic": "quantifiers",
+      "promptPt": "Traduza para o inglês: A aprendiz precisa de um pouco de açúcar.",
+      "promptEn": "Translate: A aprendiz precisa de um pouco de açúcar.",
+      "answers": [
+        "The apprentice needs a little sugar."
+      ],
+      "explanation": "Use needs com sujeito singular e a little com sugar, que é incontável.",
+      "distractors": [
+        "The apprentice needs a few sugar.",
+        "The apprentice need a little sugar.",
+        "The apprentice needs any sugar."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l1-simple-past-1",
+      "level": 1,
+      "topic": "simple-past",
+      "promptPt": "Responda em inglês à tarefa indicada:\nYesterday, I ___ breakfast at seven.",
+      "promptEn": "Yesterday, I ___ breakfast at seven.",
+      "answers": [
+        "had"
+      ],
+      "explanation": "Have → had no passado.",
+      "distractors": [
+        "have",
+        "has",
+        "haved"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l1-simple-past-2",
+      "level": 1,
+      "topic": "simple-past",
+      "promptPt": "Responda em inglês à tarefa indicada:\nShe ___ a blue dress last Sunday.",
+      "promptEn": "She ___ a blue dress last Sunday.",
+      "answers": [
+        "wore"
+      ],
+      "explanation": "Wear → wore na afirmativa no passado.",
+      "distractors": [
+        "wear",
+        "worn",
+        "weared"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l1-simple-past-3",
+      "level": 1,
+      "topic": "simple-past",
+      "promptPt": "Responda em inglês à tarefa indicada:\nThe lesson ___ at eight yesterday.",
+      "promptEn": "The lesson ___ at eight yesterday.",
+      "answers": [
+        "began"
+      ],
+      "explanation": "Begin → began no simple past; begun não é o simple past.",
+      "distractors": [
+        "begin",
+        "begun",
+        "beginned"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l1-simple-past-4",
+      "level": 1,
+      "topic": "simple-past",
+      "promptPt": "Responda em inglês à tarefa indicada:\nWe ___ about the answer last night.",
+      "promptEn": "We ___ about the answer last night.",
+      "answers": [
+        "thought"
+      ],
+      "explanation": "Think → thought.",
+      "distractors": [
+        "think",
+        "thinked",
+        "thinks"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l1-simple-past-5",
+      "level": 1,
+      "topic": "simple-past",
+      "promptPt": "Responda em inglês à tarefa indicada:\nThey ___ to the park last Saturday.",
+      "promptEn": "They ___ to the park last Saturday.",
+      "answers": [
+        "went"
+      ],
+      "explanation": "Go → went; gone é o particípio.",
+      "distractors": [
+        "go",
+        "goed",
+        "gone"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l1-simple-past-6",
+      "level": 1,
+      "topic": "simple-past",
+      "promptPt": "Responda em inglês à tarefa indicada:\nThe apprentice ___ yesterday. (train)",
+      "promptEn": "The apprentice ___ yesterday. (train)",
+      "answers": [
+        "trained"
+      ],
+      "explanation": "Train é regular: acrescente -ed.",
+      "distractors": [
+        "train",
+        "trains",
+        "training"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-simple-past-1",
+      "level": 2,
+      "topic": "simple-past",
+      "promptPt": "Responda em inglês à tarefa indicada:\nLucas didn’t ___ to the park.",
+      "promptEn": "Lucas didn’t ___ to the park.",
+      "answers": [
+        "go"
+      ],
+      "explanation": "Depois de didn’t, use go na forma básica.",
+      "distractors": [
+        "went",
+        "gone",
+        "goes"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-simple-past-2",
+      "level": 2,
+      "topic": "simple-past",
+      "promptPt": "Responda em inglês à tarefa indicada:\nDid she ___ you a pencil?",
+      "promptEn": "Did she ___ you a pencil?",
+      "answers": [
+        "give"
+      ],
+      "explanation": "Depois de did, use give, não gave.",
+      "distractors": [
+        "gave",
+        "given",
+        "gives"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-simple-past-3",
+      "level": 2,
+      "topic": "simple-past",
+      "promptPt": "Responda em inglês à tarefa indicada:\nThey didn’t ___ lunch at school.",
+      "promptEn": "They didn’t ___ lunch at school.",
+      "answers": [
+        "have"
+      ],
+      "explanation": "Depois de didn’t, had volta a have.",
+      "distractors": [
+        "had",
+        "has",
+        "having"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-simple-past-4",
+      "level": 2,
+      "topic": "simple-past",
+      "promptPt": "Responda em inglês à tarefa indicada:\nDid you ___ to the beach yesterday?",
+      "promptEn": "Did you ___ to the beach yesterday?",
+      "answers": [
+        "go"
+      ],
+      "explanation": "Did já marca o passado; go permanece na forma básica.",
+      "distractors": [
+        "went",
+        "gone",
+        "goes"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-simple-past-5",
+      "level": 2,
+      "topic": "simple-past",
+      "promptPt": "Responda em inglês à tarefa indicada:\nShe didn’t ___ a jacket.",
+      "promptEn": "She didn’t ___ a jacket.",
+      "answers": [
+        "wear"
+      ],
+      "explanation": "Use wear depois de didn’t.",
+      "distractors": [
+        "wore",
+        "worn",
+        "wears"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-simple-past-6",
+      "level": 2,
+      "topic": "simple-past",
+      "promptPt": "Responda em inglês à tarefa indicada:\nDid they ___ the secret?",
+      "promptEn": "Did they ___ the secret?",
+      "answers": [
+        "keep"
+      ],
+      "explanation": "Use keep depois de did.",
+      "distractors": [
+        "kept",
+        "keeps",
+        "keeping"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-simple-past-1",
+      "level": 3,
+      "topic": "simple-past",
+      "promptPt": "Passe para a negativa: Lucas went to the park.",
+      "promptEn": "Make negative: Lucas went to the park.",
+      "answers": [
+        "Lucas didn't go to the park.",
+        "Lucas did not go to the park."
+      ],
+      "explanation": "Negativa: sujeito + didn’t + verbo na forma básica.",
+      "distractors": [
+        "Lucas didn’t went to the park.",
+        "Lucas not went to the park.",
+        "Lucas doesn’t went to the park."
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-simple-past-2",
+      "level": 3,
+      "topic": "simple-past",
+      "promptPt": "Passe para a negativa: They had lunch at school.",
+      "promptEn": "Make negative: They had lunch at school.",
+      "answers": [
+        "They didn't have lunch at school.",
+        "They did not have lunch at school."
+      ],
+      "explanation": "Had volta a have depois de didn’t.",
+      "distractors": [
+        "They didn’t had lunch at school.",
+        "They not had lunch at school.",
+        "They didn’t has lunch at school."
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-simple-past-3",
+      "level": 3,
+      "topic": "simple-past",
+      "promptPt": "Transforme em pergunta: You went to the beach yesterday.",
+      "promptEn": "Make a question: You went to the beach yesterday.",
+      "answers": [
+        "Did you go to the beach yesterday?"
+      ],
+      "explanation": "Pergunta: Did + sujeito + forma básica?",
+      "distractors": [
+        "Did you went to the beach yesterday?",
+        "Do you went to the beach yesterday?",
+        "You did went to the beach yesterday?"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-simple-past-4",
+      "level": 3,
+      "topic": "simple-past",
+      "promptPt": "Transforme em pergunta: She gave you a pencil.",
+      "promptEn": "Make a question: She gave you a pencil.",
+      "answers": [
+        "Did she give you a pencil?"
+      ],
+      "explanation": "Gave volta a give depois de did.",
+      "distractors": [
+        "Did she gave you a pencil?",
+        "Does she gave you a pencil?",
+        "Did she gives you a pencil?"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-simple-past-5",
+      "level": 3,
+      "topic": "simple-past",
+      "promptPt": "Use “yesterday” no lugar de “every day”: I have breakfast at seven every day.",
+      "promptEn": "Use yesterday: I have breakfast at seven every day.",
+      "answers": [
+        "I had breakfast at seven yesterday."
+      ],
+      "explanation": "Troque have por had e every day por yesterday.",
+      "distractors": [
+        "I have breakfast at seven yesterday.",
+        "I haved breakfast at seven yesterday.",
+        "I had breakfast at seven every day."
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-simple-past-6",
+      "level": 3,
+      "topic": "simple-past",
+      "promptPt": "Use “last Sunday” no lugar de “every Sunday”: She wears a blue dress every Sunday.",
+      "promptEn": "Use last Sunday: She wears a blue dress every Sunday.",
+      "answers": [
+        "She wore a blue dress last Sunday."
+      ],
+      "explanation": "Wear → wore. O marcador de tempo passa a ser last Sunday.",
+      "distractors": [
+        "She wear a blue dress last Sunday.",
+        "She weared a blue dress last Sunday.",
+        "She worn a blue dress last Sunday."
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-simple-past-1",
+      "level": 4,
+      "topic": "simple-past",
+      "promptPt": "Transforme em pergunta: The hunter left the camp last night.",
+      "promptEn": "Make a question: The hunter left the camp last night.",
+      "answers": [
+        "Did the hunter leave the camp last night?"
+      ],
+      "explanation": "Use did e a forma básica leave.",
+      "distractors": [
+        "Did the hunter left the camp last night?",
+        "Does the hunter left the camp last night?",
+        "Did the hunter leaves the camp last night?"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-simple-past-2",
+      "level": 4,
+      "topic": "simple-past",
+      "promptPt": "Passe para a negativa: The apprentice kept the secret.",
+      "promptEn": "Make negative: The apprentice kept the secret.",
+      "answers": [
+        "The apprentice didn't keep the secret.",
+        "The apprentice did not keep the secret."
+      ],
+      "explanation": "Kept volta a keep depois de didn’t.",
+      "distractors": [
+        "The apprentice didn’t kept the secret.",
+        "The apprentice not kept the secret.",
+        "The apprentice doesn’t kept the secret."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-simple-past-3",
+      "level": 4,
+      "topic": "simple-past",
+      "promptPt": "Use “yesterday morning” no lugar de “every morning”: The lesson begins at eight every morning.",
+      "promptEn": "Use yesterday morning: The lesson begins at eight every morning.",
+      "answers": [
+        "The lesson began at eight yesterday morning."
+      ],
+      "explanation": "Begin → began e every morning → yesterday morning.",
+      "distractors": [
+        "The lesson begun at eight yesterday morning.",
+        "The lesson begins at eight yesterday morning.",
+        "The lesson beginned at eight yesterday morning."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-simple-past-4",
+      "level": 4,
+      "topic": "simple-past",
+      "promptPt": "Traduza para o inglês: Os caçadores foram à floresta ontem.",
+      "promptEn": "Translate: Os caçadores foram à floresta ontem.",
+      "answers": [
+        "The hunters went to the forest yesterday."
+      ],
+      "explanation": "Na afirmativa, use went, passado de go.",
+      "distractors": [
+        "The hunters goed to the forest yesterday.",
+        "The hunters go to the forest yesterday.",
+        "The hunters gone to the forest yesterday."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-simple-past-5",
+      "level": 4,
+      "topic": "simple-past",
+      "promptPt": "Dê uma resposta curta negativa: Did you go to school?",
+      "promptEn": "Answer negatively: Did you go to school?",
+      "answers": [
+        "No, I didn't.",
+        "No, I did not."
+      ],
+      "explanation": "A resposta curta repete o auxiliar did: No, I didn’t.",
+      "distractors": [
+        "No, I don’t.",
+        "No, I wasn’t.",
+        "No, I went."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-simple-past-6",
+      "level": 4,
+      "topic": "simple-past",
+      "promptPt": "Corrija a frase: She didn’t wore a cloak.",
+      "promptEn": "Correct: She didn’t wore a cloak.",
+      "answers": [
+        "She didn't wear a cloak.",
+        "She did not wear a cloak."
+      ],
+      "explanation": "Didn’t exige o verbo wear na forma básica.",
+      "distractors": [
+        "She didn’t wears a cloak.",
+        "She not wore a cloak.",
+        "She doesn’t wore a cloak."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l1-irregular-verbs-1",
+      "level": 1,
+      "topic": "irregular-verbs",
+      "promptPt": "Qual é o passado de “have” (ter)?",
+      "promptEn": "What is the simple past of “have”?",
+      "answers": [
+        "had"
+      ],
+      "explanation": "have → had. Verbo irregular: não acrescentamos -ed.",
+      "distractors": [
+        "have",
+        "haveed",
+        "haves"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l1-irregular-verbs-2",
+      "level": 1,
+      "topic": "irregular-verbs",
+      "promptPt": "Qual é o passado de “wear” (vestir)?",
+      "promptEn": "What is the simple past of “wear”?",
+      "answers": [
+        "wore"
+      ],
+      "explanation": "wear → wore. Verbo irregular: não acrescentamos -ed.",
+      "distractors": [
+        "wear",
+        "weared",
+        "wears"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l1-irregular-verbs-3",
+      "level": 1,
+      "topic": "irregular-verbs",
+      "promptPt": "Qual é o passado de “begin” (começar)?",
+      "promptEn": "What is the simple past of “begin”?",
+      "answers": [
+        "began"
+      ],
+      "explanation": "begin → began. Verbo irregular: não acrescentamos -ed.",
+      "distractors": [
+        "begin",
+        "begined",
+        "begins"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l1-irregular-verbs-4",
+      "level": 1,
+      "topic": "irregular-verbs",
+      "promptPt": "Qual é o passado de “think” (pensar)?",
+      "promptEn": "What is the simple past of “think”?",
+      "answers": [
+        "thought"
+      ],
+      "explanation": "think → thought. Verbo irregular: não acrescentamos -ed.",
+      "distractors": [
+        "think",
+        "thinked",
+        "thinks"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l1-irregular-verbs-5",
+      "level": 1,
+      "topic": "irregular-verbs",
+      "promptPt": "Qual é o passado de “go” (ir)?",
+      "promptEn": "What is the simple past of “go”?",
+      "answers": [
+        "went"
+      ],
+      "explanation": "go → went. Verbo irregular: não acrescentamos -ed.",
+      "distractors": [
+        "go",
+        "goed",
+        "gos"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l1-irregular-verbs-6",
+      "level": 1,
+      "topic": "irregular-verbs",
+      "promptPt": "Qual é o passado de “leave” (sair)?",
+      "promptEn": "What is the simple past of “leave”?",
+      "answers": [
+        "left"
+      ],
+      "explanation": "leave → left. Verbo irregular: não acrescentamos -ed.",
+      "distractors": [
+        "leave",
+        "leaveed",
+        "leaves"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-irregular-verbs-1",
+      "level": 2,
+      "topic": "irregular-verbs",
+      "promptPt": "Escreva o passado de “give” (dar).",
+      "promptEn": "Write the simple past of “give”.",
+      "answers": [
+        "gave"
+      ],
+      "explanation": "give → gave. Esta forma precisa ser memorizada.",
+      "distractors": [
+        "give",
+        "giveed",
+        "gives"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-irregular-verbs-2",
+      "level": 2,
+      "topic": "irregular-verbs",
+      "promptPt": "Escreva o passado de “get” (receber).",
+      "promptEn": "Write the simple past of “get”.",
+      "answers": [
+        "got"
+      ],
+      "explanation": "get → got. Esta forma precisa ser memorizada.",
+      "distractors": [
+        "get",
+        "geted",
+        "gets"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-irregular-verbs-3",
+      "level": 2,
+      "topic": "irregular-verbs",
+      "promptPt": "Escreva o passado de “keep” (guardar).",
+      "promptEn": "Write the simple past of “keep”.",
+      "answers": [
+        "kept"
+      ],
+      "explanation": "keep → kept. Esta forma precisa ser memorizada.",
+      "distractors": [
+        "keep",
+        "keeped",
+        "keeps"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-irregular-verbs-4",
+      "level": 2,
+      "topic": "irregular-verbs",
+      "promptPt": "Escreva o passado de “be” (ser/estar).",
+      "promptEn": "Write the simple past of “be”.",
+      "answers": [
+        "was / were",
+        "was, were",
+        "was and were",
+        "was were"
+      ],
+      "explanation": "be → was / were. Esta forma precisa ser memorizada.",
+      "distractors": [
+        "be",
+        "beed",
+        "bes"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-irregular-verbs-5",
+      "level": 2,
+      "topic": "irregular-verbs",
+      "promptPt": "Escreva o passado de “go” (ir).",
+      "promptEn": "Write the simple past of “go”.",
+      "answers": [
+        "went"
+      ],
+      "explanation": "go → went. Esta forma precisa ser memorizada.",
+      "distractors": [
+        "go",
+        "goed",
+        "gos"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-irregular-verbs-6",
+      "level": 2,
+      "topic": "irregular-verbs",
+      "promptPt": "Escreva o passado de “think” (pensar).",
+      "promptEn": "Write the simple past of “think”.",
+      "answers": [
+        "thought"
+      ],
+      "explanation": "think → thought. Esta forma precisa ser memorizada.",
+      "distractors": [
+        "think",
+        "thinked",
+        "thinks"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-irregular-verbs-1",
+      "level": 3,
+      "topic": "irregular-verbs",
+      "promptPt": "Complete com o passado de “leave”:\nThe hunter ___ the camp yesterday.",
+      "promptEn": "Complete with the simple past of “leave”: The hunter ___ the camp yesterday.",
+      "answers": [
+        "left"
+      ],
+      "explanation": "leave → left em uma afirmativa no passado.",
+      "distractors": [
+        "leave",
+        "leaveed",
+        "leaves"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-irregular-verbs-2",
+      "level": 3,
+      "topic": "irregular-verbs",
+      "promptPt": "Complete com o passado de “give”:\nShe ___ me a sword last night.",
+      "promptEn": "Complete with the simple past of “give”: She ___ me a sword last night.",
+      "answers": [
+        "gave"
+      ],
+      "explanation": "give → gave em uma afirmativa no passado.",
+      "distractors": [
+        "give",
+        "giveed",
+        "gives"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-irregular-verbs-3",
+      "level": 3,
+      "topic": "irregular-verbs",
+      "promptPt": "Complete com o passado de “get”:\nI ___ a present yesterday.",
+      "promptEn": "Complete with the simple past of “get”: I ___ a present yesterday.",
+      "answers": [
+        "got"
+      ],
+      "explanation": "get → got em uma afirmativa no passado.",
+      "distractors": [
+        "get",
+        "geted",
+        "gets"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-irregular-verbs-4",
+      "level": 3,
+      "topic": "irregular-verbs",
+      "promptPt": "Complete com o passado de “keep”:\nThey ___ the secret.",
+      "promptEn": "Complete with the simple past of “keep”: They ___ the secret.",
+      "answers": [
+        "kept"
+      ],
+      "explanation": "keep → kept em uma afirmativa no passado.",
+      "distractors": [
+        "keep",
+        "keeped",
+        "keeps"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-irregular-verbs-5",
+      "level": 3,
+      "topic": "irregular-verbs",
+      "promptPt": "Complete com o passado de “think”:\nWe ___ about the mission last night.",
+      "promptEn": "Complete with the simple past of “think”: We ___ about the mission last night.",
+      "answers": [
+        "thought"
+      ],
+      "explanation": "think → thought em uma afirmativa no passado.",
+      "distractors": [
+        "think",
+        "thinked",
+        "thinks"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-irregular-verbs-6",
+      "level": 3,
+      "topic": "irregular-verbs",
+      "promptPt": "Complete com o passado de “begin”:\nThe training ___ at dawn.",
+      "promptEn": "Complete with the simple past of “begin”: The training ___ at dawn.",
+      "answers": [
+        "began"
+      ],
+      "explanation": "begin → began em uma afirmativa no passado.",
+      "distractors": [
+        "begin",
+        "begined",
+        "begins"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-irregular-verbs-1",
+      "level": 4,
+      "topic": "irregular-verbs",
+      "promptPt": "Reescreva no passado e acrescente “yesterday”:\nThe hunter leaves the camp.",
+      "promptEn": "Rewrite in the simple past and add “yesterday”: The hunter leaves the camp.",
+      "answers": [
+        "The hunter left the camp yesterday."
+      ],
+      "explanation": "O passado de leave é left; use essa forma na afirmativa.",
+      "distractors": [
+        "The hunter leaves the camp.",
+        "The hunter leaves the camp yesterday.",
+        "The hunter lefteds the camp."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-irregular-verbs-2",
+      "level": 4,
+      "topic": "irregular-verbs",
+      "promptPt": "Reescreva no passado e acrescente “yesterday”:\nShe gives me a sword.",
+      "promptEn": "Rewrite in the simple past and add “yesterday”: She gives me a sword.",
+      "answers": [
+        "She gave me a sword yesterday."
+      ],
+      "explanation": "O passado de give é gave; use essa forma na afirmativa.",
+      "distractors": [
+        "She gives me a sword.",
+        "She gives me a sword yesterday.",
+        "She gaveeds me a sword."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-irregular-verbs-3",
+      "level": 4,
+      "topic": "irregular-verbs",
+      "promptPt": "Reescreva no passado e acrescente “yesterday”:\nI get a present.",
+      "promptEn": "Rewrite in the simple past and add “yesterday”: I get a present.",
+      "answers": [
+        "I got a present yesterday."
+      ],
+      "explanation": "O passado de get é got; use essa forma na afirmativa.",
+      "distractors": [
+        "I get a present.",
+        "I get a present yesterday.",
+        "I goted a present."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-irregular-verbs-4",
+      "level": 4,
+      "topic": "irregular-verbs",
+      "promptPt": "Reescreva no passado e acrescente “yesterday”:\nThey keep the secret.",
+      "promptEn": "Rewrite in the simple past and add “yesterday”: They keep the secret.",
+      "answers": [
+        "They kept the secret yesterday."
+      ],
+      "explanation": "O passado de keep é kept; use essa forma na afirmativa.",
+      "distractors": [
+        "They keep the secret.",
+        "They keep the secret yesterday.",
+        "They kepted the secret."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-irregular-verbs-5",
+      "level": 4,
+      "topic": "irregular-verbs",
+      "promptPt": "Reescreva no passado e acrescente “yesterday”:\nWe think about the mission.",
+      "promptEn": "Rewrite in the simple past and add “yesterday”: We think about the mission.",
+      "answers": [
+        "We thought about the mission yesterday."
+      ],
+      "explanation": "O passado de think é thought; use essa forma na afirmativa.",
+      "distractors": [
+        "We think about the mission.",
+        "We think about the mission yesterday.",
+        "We thoughted about the mission."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-irregular-verbs-6",
+      "level": 4,
+      "topic": "irregular-verbs",
+      "promptPt": "Reescreva no passado e acrescente “yesterday”:\nThe training begins at dawn.",
+      "promptEn": "Rewrite in the simple past and add “yesterday”: The training begins at dawn.",
+      "answers": [
+        "The training began at dawn yesterday."
+      ],
+      "explanation": "O passado de begin é began; use essa forma na afirmativa.",
+      "distractors": [
+        "The training begins at dawn.",
+        "The training begins at dawn yesterday.",
+        "The training beganeds at dawn."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l1-verb-be-1",
+      "level": 1,
+      "topic": "verb-be",
+      "promptPt": "Complete com was ou were:\nI ___ at school yesterday.",
+      "promptEn": "Complete with was or were: I ___ at school yesterday.",
+      "answers": [
+        "was"
+      ],
+      "explanation": "I/he/she/it: was. You/we/they: were.",
+      "distractors": [
+        "were",
+        "is",
+        "are"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l1-verb-be-2",
+      "level": 1,
+      "topic": "verb-be",
+      "promptPt": "Complete com was ou were:\nThe children ___ in the park.",
+      "promptEn": "Complete with was or were: The children ___ in the park.",
+      "answers": [
+        "were"
+      ],
+      "explanation": "I/he/she/it: was. You/we/they: were.",
+      "distractors": [
+        "was",
+        "is",
+        "are"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l1-verb-be-3",
+      "level": 1,
+      "topic": "verb-be",
+      "promptPt": "Complete com was ou were:\nMy mother ___ happy last night.",
+      "promptEn": "Complete with was or were: My mother ___ happy last night.",
+      "answers": [
+        "was"
+      ],
+      "explanation": "I/he/she/it: was. You/we/they: were.",
+      "distractors": [
+        "were",
+        "is",
+        "are"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l1-verb-be-4",
+      "level": 1,
+      "topic": "verb-be",
+      "promptPt": "Complete com was ou were:\nWe ___ tired after the trip.",
+      "promptEn": "Complete with was or were: We ___ tired after the trip.",
+      "answers": [
+        "were"
+      ],
+      "explanation": "I/he/she/it: was. You/we/they: were.",
+      "distractors": [
+        "was",
+        "is",
+        "are"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l1-verb-be-5",
+      "level": 1,
+      "topic": "verb-be",
+      "promptPt": "Complete com was ou were:\nYou ___ late for class.",
+      "promptEn": "Complete with was or were: You ___ late for class.",
+      "answers": [
+        "were"
+      ],
+      "explanation": "I/he/she/it: was. You/we/they: were.",
+      "distractors": [
+        "was",
+        "is",
+        "are"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l1-verb-be-6",
+      "level": 1,
+      "topic": "verb-be",
+      "promptPt": "Complete com was ou were:\nIt ___ cold yesterday.",
+      "promptEn": "Complete with was or were: It ___ cold yesterday.",
+      "answers": [
+        "was"
+      ],
+      "explanation": "I/he/she/it: was. You/we/they: were.",
+      "distractors": [
+        "were",
+        "is",
+        "are"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-verb-be-1",
+      "level": 2,
+      "topic": "verb-be",
+      "promptPt": "Complete usando o verbo be no passado:\nThe hunters ___ ready yesterday.",
+      "promptEn": "Complete using be in the past: The hunters ___ ready yesterday.",
+      "answers": [
+        "were"
+      ],
+      "explanation": "Be usa was/were; na negativa, wasn’t/weren’t. Não usamos did.",
+      "distractors": [
+        "did",
+        "didn’t",
+        "is"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-verb-be-2",
+      "level": 2,
+      "topic": "verb-be",
+      "promptPt": "Complete usando o verbo be no passado:\nThe apprentice ___ brave last night.",
+      "promptEn": "Complete using be in the past: The apprentice ___ brave last night.",
+      "answers": [
+        "was"
+      ],
+      "explanation": "Be usa was/were; na negativa, wasn’t/weren’t. Não usamos did.",
+      "distractors": [
+        "did",
+        "didn’t",
+        "is"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-verb-be-3",
+      "level": 2,
+      "topic": "verb-be",
+      "promptPt": "Complete usando o verbo be no passado:\n___ she tired?",
+      "promptEn": "Complete using be in the past: ___ she tired?",
+      "answers": [
+        "Was"
+      ],
+      "explanation": "Be usa was/were; na negativa, wasn’t/weren’t. Não usamos did.",
+      "distractors": [
+        "did",
+        "didn’t",
+        "is"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-verb-be-4",
+      "level": 2,
+      "topic": "verb-be",
+      "promptPt": "Complete usando o verbo be no passado:\n___ they at the camp?",
+      "promptEn": "Complete using be in the past: ___ they at the camp?",
+      "answers": [
+        "Were"
+      ],
+      "explanation": "Be usa was/were; na negativa, wasn’t/weren’t. Não usamos did.",
+      "distractors": [
+        "did",
+        "didn’t",
+        "is"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-verb-be-5",
+      "level": 2,
+      "topic": "verb-be",
+      "promptPt": "Complete usando o verbo be no passado:\nHe ___ at home. (na negativa)",
+      "promptEn": "Complete using be in the past: He ___ at home. (negative)",
+      "answers": [
+        "wasn't",
+        "was not"
+      ],
+      "explanation": "Be usa was/were; na negativa, wasn’t/weren’t. Não usamos did.",
+      "distractors": [
+        "did",
+        "didn’t",
+        "is"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-verb-be-6",
+      "level": 2,
+      "topic": "verb-be",
+      "promptPt": "Complete usando o verbo be no passado:\nThey ___ tired. (na negativa)",
+      "promptEn": "Complete using be in the past: They ___ tired. (negative)",
+      "answers": [
+        "weren't",
+        "were not"
+      ],
+      "explanation": "Be usa was/were; na negativa, wasn’t/weren’t. Não usamos did.",
+      "distractors": [
+        "did",
+        "didn’t",
+        "is"
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-verb-be-1",
+      "level": 3,
+      "topic": "verb-be",
+      "promptPt": "Passe para a negativa: He was at home.",
+      "promptEn": "Make negative: He was at home.",
+      "answers": [
+        "He wasn't at home.",
+        "He was not at home."
+      ],
+      "explanation": "Com be, use was/were diretamente nas perguntas e negativas; não use did.",
+      "distractors": [
+        "Did they tired?",
+        "Yes, she were.",
+        "No, they wasn’t."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-verb-be-2",
+      "level": 3,
+      "topic": "verb-be",
+      "promptPt": "Passe para a negativa: They were tired.",
+      "promptEn": "Make negative: They were tired.",
+      "answers": [
+        "They weren't tired.",
+        "They were not tired."
+      ],
+      "explanation": "Com be, use was/were diretamente nas perguntas e negativas; não use did.",
+      "distractors": [
+        "Did they tired?",
+        "Yes, she were.",
+        "No, they wasn’t."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-verb-be-3",
+      "level": 3,
+      "topic": "verb-be",
+      "promptPt": "Transforme em pergunta: She was tired.",
+      "promptEn": "Make a question: She was tired.",
+      "answers": [
+        "Was she tired?"
+      ],
+      "explanation": "Com be, use was/were diretamente nas perguntas e negativas; não use did.",
+      "distractors": [
+        "Did they tired?",
+        "Yes, she were.",
+        "No, they wasn’t."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-verb-be-4",
+      "level": 3,
+      "topic": "verb-be",
+      "promptPt": "Transforme em pergunta: They were at school.",
+      "promptEn": "Make a question: They were at school.",
+      "answers": [
+        "Were they at school?"
+      ],
+      "explanation": "Com be, use was/were diretamente nas perguntas e negativas; não use did.",
+      "distractors": [
+        "Did they tired?",
+        "Yes, she were.",
+        "No, they wasn’t."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-verb-be-5",
+      "level": 3,
+      "topic": "verb-be",
+      "promptPt": "Dê uma resposta curta afirmativa: Was she tired?",
+      "promptEn": "Answer positively: Was she tired?",
+      "answers": [
+        "Yes, she was."
+      ],
+      "explanation": "Com be, use was/were diretamente nas perguntas e negativas; não use did.",
+      "distractors": [
+        "Did they tired?",
+        "Yes, she were.",
+        "No, they wasn’t."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-verb-be-6",
+      "level": 3,
+      "topic": "verb-be",
+      "promptPt": "Dê uma resposta curta negativa: Were they at the camp?",
+      "promptEn": "Answer negatively: Were they at the camp?",
+      "answers": [
+        "No, they weren't.",
+        "No, they were not."
+      ],
+      "explanation": "Com be, use was/were diretamente nas perguntas e negativas; não use did.",
+      "distractors": [
+        "Did they tired?",
+        "Yes, she were.",
+        "No, they wasn’t."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-verb-be-1",
+      "level": 4,
+      "topic": "verb-be",
+      "promptPt": "Traduza para o inglês: Os caçadores estavam cansados.",
+      "promptEn": "Translate: Os caçadores estavam cansados.",
+      "answers": [
+        "The hunters were tired."
+      ],
+      "explanation": "The hunters é plural: were.",
+      "distractors": [
+        "They was tired.",
+        "Did the hunter was at the camp yesterday?",
+        "We didn’t were at school."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-verb-be-2",
+      "level": 4,
+      "topic": "verb-be",
+      "promptPt": "Traduza para o inglês: A aprendiz estava na floresta.",
+      "promptEn": "Translate: A aprendiz estava na floresta.",
+      "answers": [
+        "The apprentice was in the forest."
+      ],
+      "explanation": "The apprentice é singular: was.",
+      "distractors": [
+        "They was tired.",
+        "Did the hunter was at the camp yesterday?",
+        "We didn’t were at school."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-verb-be-3",
+      "level": 4,
+      "topic": "verb-be",
+      "promptPt": "Corrija a frase: Did she was tired?",
+      "promptEn": "Correct: Did she was tired?",
+      "answers": [
+        "Was she tired?"
+      ],
+      "explanation": "Be dispensa did: inverta was e she.",
+      "distractors": [
+        "They was tired.",
+        "Did the hunter was at the camp yesterday?",
+        "We didn’t were at school."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-verb-be-4",
+      "level": 4,
+      "topic": "verb-be",
+      "promptPt": "Corrija a frase: They wasn’t ready.",
+      "promptEn": "Correct: They wasn’t ready.",
+      "answers": [
+        "They weren't ready.",
+        "They were not ready."
+      ],
+      "explanation": "They exige were; a negativa é weren’t.",
+      "distractors": [
+        "They was tired.",
+        "Did the hunter was at the camp yesterday?",
+        "We didn’t were at school."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-verb-be-5",
+      "level": 4,
+      "topic": "verb-be",
+      "promptPt": "Transforme em pergunta: The hunter was at the camp yesterday.",
+      "promptEn": "Make a question: The hunter was at the camp yesterday.",
+      "answers": [
+        "Was the hunter at the camp yesterday?"
+      ],
+      "explanation": "Inverta was e o sujeito.",
+      "distractors": [
+        "They was tired.",
+        "Did the hunter was at the camp yesterday?",
+        "We didn’t were at school."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-verb-be-6",
+      "level": 4,
+      "topic": "verb-be",
+      "promptPt": "Traduza para o inglês: Nós não estávamos na escola.",
+      "promptEn": "Translate: Nós não estávamos na escola.",
+      "answers": [
+        "We weren't at school.",
+        "We were not at school."
+      ],
+      "explanation": "We exige were; use were not ou weren’t.",
+      "distractors": [
+        "They was tired.",
+        "Did the hunter was at the camp yesterday?",
+        "We didn’t were at school."
+      ],
+      "source": "aventura",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l1-climate-of-brazil-1",
+      "level": 1,
+      "topic": "climate-of-brazil",
+      "promptPt": "Qual região tem clima equatorial?",
+      "promptEn": "Which region has an equatorial climate?",
+      "answers": [
+        "The Amazon region.",
+        "Amazon",
+        "The Amazon."
+      ],
+      "explanation": "A região amazônica tem clima equatorial.",
+      "distractors": [
+        "Southern Brazil.",
+        "The semiarid Northeast.",
+        "All regions."
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l1-climate-of-brazil-2",
+      "level": 1,
+      "topic": "climate-of-brazil",
+      "promptPt": "Qual clima ocorre no Sul do Brasil?",
+      "promptEn": "What climate occurs in southern Brazil?",
+      "answers": [
+        "Subtropical.",
+        "A subtropical climate."
+      ],
+      "explanation": "O Sul tem clima subtropical.",
+      "distractors": [
+        "Equatorial.",
+        "Semiarid.",
+        "Polar."
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l1-climate-of-brazil-3",
+      "level": 1,
+      "topic": "climate-of-brazil",
+      "promptPt": "Traduza “humid” para o português.",
+      "promptEn": "Translate “humid” into Portuguese.",
+      "answers": [
+        "úmido"
+      ],
+      "explanation": "Humid significa úmido.",
+      "distractors": [
+        "seco",
+        "frio",
+        "quente"
+      ],
+      "source": "slide",
+      "responseLanguage": "pt"
+    },
+    {
+      "id": "l1-climate-of-brazil-4",
+      "level": 1,
+      "topic": "climate-of-brazil",
+      "promptPt": "Traduza “dry” para o português.",
+      "promptEn": "Translate “dry” into Portuguese.",
+      "answers": [
+        "seco"
+      ],
+      "explanation": "Dry significa seco.",
+      "distractors": [
+        "úmido",
+        "frio",
+        "chuvoso"
+      ],
+      "source": "slide",
+      "responseLanguage": "pt"
+    },
+    {
+      "id": "l1-climate-of-brazil-5",
+      "level": 1,
+      "topic": "climate-of-brazil",
+      "promptPt": "Traduza “rainfall” para o português.",
+      "promptEn": "Translate “rainfall” into Portuguese.",
+      "answers": [
+        "chuva",
+        "precipitação"
+      ],
+      "explanation": "Rainfall significa chuva ou precipitação.",
+      "distractors": [
+        "vento",
+        "temperatura",
+        "floresta"
+      ],
+      "source": "slide",
+      "responseLanguage": "pt"
+    },
+    {
+      "id": "l1-climate-of-brazil-6",
+      "level": 1,
+      "topic": "climate-of-brazil",
+      "promptPt": "Traduza “crops” para o português.",
+      "promptEn": "Translate “crops” into Portuguese.",
+      "answers": [
+        "plantações",
+        "cultivos"
+      ],
+      "explanation": "Crops significa plantações ou cultivos.",
+      "distractors": [
+        "animais",
+        "chuva",
+        "invernos"
+      ],
+      "source": "slide",
+      "responseLanguage": "pt"
+    },
+    {
+      "id": "l2-climate-of-brazil-1",
+      "level": 2,
+      "topic": "climate-of-brazil",
+      "promptPt": "Complete: Muitas áreas tropicais têm uma estação chuvosa e uma estação ___.\nMany tropical areas have a rainy season and a ___ season.",
+      "promptEn": "Many tropical areas have a rainy season and a ___ season.",
+      "answers": [
+        "dry"
+      ],
+      "explanation": "Muitas áreas tropicais têm uma estação chuvosa e outra seca.",
+      "distractors": [
+        "cold",
+        "snowy",
+        "humid"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-climate-of-brazil-2",
+      "level": 2,
+      "topic": "climate-of-brazil",
+      "promptPt": "Complete em inglês: Na Amazônia, a chuva é ___.\nIn the Amazon, rainfall is ___.",
+      "promptEn": "In the Amazon, rainfall is ___.",
+      "answers": [
+        "abundant"
+      ],
+      "explanation": "O texto descreve chuva abundante na Amazônia.",
+      "distractors": [
+        "low",
+        "irregular",
+        "absent"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-climate-of-brazil-3",
+      "level": 2,
+      "topic": "climate-of-brazil",
+      "promptPt": "Complete em inglês: No semiárido, a chuva é baixa e ___.\nIn semiarid areas, rainfall is low and ___.",
+      "promptEn": "In semiarid areas, rainfall is low and ___.",
+      "answers": [
+        "irregular"
+      ],
+      "explanation": "No semiárido, a chuva é baixa e irregular.",
+      "distractors": [
+        "abundant",
+        "constant",
+        "frozen"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-climate-of-brazil-4",
+      "level": 2,
+      "topic": "climate-of-brazil",
+      "promptPt": "Complete em inglês: O Sul do Brasil tem ___ mais frios.\nSouthern Brazil has colder ___.",
+      "promptEn": "Southern Brazil has colder ___.",
+      "answers": [
+        "winters"
+      ],
+      "explanation": "O texto compara os invernos mais frios do Sul.",
+      "distractors": [
+        "summers",
+        "forests",
+        "rains"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-climate-of-brazil-5",
+      "level": 2,
+      "topic": "climate-of-brazil",
+      "promptPt": "O Brasil tem o mesmo clima em todas as regiões? Responda em inglês.",
+      "promptEn": "Does Brazil have the same climate everywhere?",
+      "answers": [
+        "No.",
+        "No, it does not."
+      ],
+      "explanation": "O Brasil tem climas diferentes de uma região para outra.",
+      "distractors": [
+        "Yes.",
+        "Only in winter.",
+        "Only in summer."
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l2-climate-of-brazil-6",
+      "level": 2,
+      "topic": "climate-of-brazil",
+      "promptPt": "Traduza “raise animals” para o português.",
+      "promptEn": "Translate “raise animals” into Portuguese.",
+      "answers": [
+        "criar animais"
+      ],
+      "explanation": "Raise animals significa criar animais.",
+      "distractors": [
+        "plantar árvores",
+        "colher frutos",
+        "medir chuva"
+      ],
+      "source": "slide",
+      "responseLanguage": "pt"
+    },
+    {
+      "id": "l3-climate-of-brazil-1",
+      "level": 3,
+      "topic": "climate-of-brazil",
+      "promptPt": "Qual região costuma ser quente durante todo o ano? Responda em inglês.",
+      "promptEn": "Which region is usually hot throughout the year?",
+      "answers": [
+        "The Amazon region.",
+        "The Amazon.",
+        "Amazon"
+      ],
+      "explanation": "Segundo o texto, a Amazônia é geralmente quente durante o ano todo.",
+      "distractors": [
+        "Southern Brazil.",
+        "All regions.",
+        "The South Pole."
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-climate-of-brazil-2",
+      "level": 3,
+      "topic": "climate-of-brazil",
+      "promptPt": "Qual clima tem chuvas baixas e irregulares? Responda em inglês.",
+      "promptEn": "Which climate has low and irregular rainfall?",
+      "answers": [
+        "Semiarid.",
+        "The semiarid climate."
+      ],
+      "explanation": "Essas características correspondem ao semiárido.",
+      "distractors": [
+        "Equatorial.",
+        "Subtropical.",
+        "Polar."
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-climate-of-brazil-3",
+      "level": 3,
+      "topic": "climate-of-brazil",
+      "promptPt": "Nomeie as duas estações principais em muitas áreas tropicais. Responda em inglês.",
+      "promptEn": "Name the two main seasons in many tropical areas.",
+      "answers": [
+        "A rainy season and a dry season.",
+        "Rainy and dry.",
+        "Rainy season and dry season."
+      ],
+      "explanation": "O texto menciona estação chuvosa e estação seca.",
+      "distractors": [
+        "Winter and snow.",
+        "Cold and frozen.",
+        "Hot and polar."
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-climate-of-brazil-4",
+      "level": 3,
+      "topic": "climate-of-brazil",
+      "promptPt": "Qual região tem invernos mais frios? Responda em inglês.",
+      "promptEn": "Which region has colder winters?",
+      "answers": [
+        "Southern Brazil.",
+        "The South.",
+        "South Brazil."
+      ],
+      "explanation": "O Sul tem invernos mais frios do que a maioria das outras regiões.",
+      "distractors": [
+        "The Amazon.",
+        "All regions.",
+        "The equator."
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-climate-of-brazil-5",
+      "level": 3,
+      "topic": "climate-of-brazil",
+      "promptPt": "Complete em inglês: Temperatura e ___ variam entre regiões.\nComplete: Temperature and ___ vary between regions.",
+      "promptEn": "Complete: Temperature and ___ vary between regions.",
+      "answers": [
+        "rainfall"
+      ],
+      "explanation": "O texto destaca as diferenças de temperatura e chuva.",
+      "distractors": [
+        "swords",
+        "hunters",
+        "cloaks"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l3-climate-of-brazil-6",
+      "level": 3,
+      "topic": "climate-of-brazil",
+      "promptPt": "Qual floresta é sustentada pelo calor e pela umidade? Responda em inglês.",
+      "promptEn": "What forest do warm and humid conditions support?",
+      "answers": [
+        "The rainforest.",
+        "Rainforest."
+      ],
+      "explanation": "Calor e umidade ajudam a sustentar a floresta tropical.",
+      "distractors": [
+        "The desert.",
+        "The tundra.",
+        "The polar forest."
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-climate-of-brazil-1",
+      "level": 4,
+      "topic": "climate-of-brazil",
+      "promptPt": "Complete a comparação em inglês: A Amazônia tem chuva abundante; áreas semiáridas têm chuva ___.\nComplete the comparison: The Amazon has abundant rainfall; semiarid areas have ___ rainfall.",
+      "promptEn": "Complete the comparison: The Amazon has abundant rainfall; semiarid areas have ___ rainfall.",
+      "answers": [
+        "low and irregular"
+      ],
+      "explanation": "A comparação é entre chuva abundante e chuva baixa e irregular.",
+      "distractors": [
+        "high and constant",
+        "abundant and regular",
+        "frozen and heavy"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-climate-of-brazil-2",
+      "level": 4,
+      "topic": "climate-of-brazil",
+      "promptPt": "Complete em inglês: A falta de chuva dificulta cultivar ___ e criar ___.\nComplete: Long periods without rain make it difficult to grow ___ and raise ___.",
+      "promptEn": "Complete: Long periods without rain make it difficult to grow ___ and raise ___.",
+      "answers": [
+        "crops / animals",
+        "crops and animals",
+        "crops, animals"
+      ],
+      "explanation": "A falta de chuva dificulta o cultivo e a criação de animais.",
+      "distractors": [
+        "rain / forests",
+        "animals / crops",
+        "winters / temperatures"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-climate-of-brazil-3",
+      "level": 4,
+      "topic": "climate-of-brazil",
+      "promptPt": "Escreva em inglês os climas da Amazônia e do Sul, nessa ordem.",
+      "promptEn": "Write the climate names for the Amazon and southern Brazil, in that order.",
+      "answers": [
+        "equatorial / subtropical",
+        "equatorial and subtropical",
+        "equatorial, subtropical"
+      ],
+      "explanation": "Amazônia: equatorial. Sul: subtropical.",
+      "distractors": [
+        "subtropical / equatorial",
+        "semiarid / tropical",
+        "polar / equatorial"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-climate-of-brazil-4",
+      "level": 4,
+      "topic": "climate-of-brazil",
+      "promptPt": "Traduza para o inglês: estação chuvosa e estação seca.",
+      "promptEn": "Translate into English: estação chuvosa e estação seca.",
+      "answers": [
+        "rainy season and dry season",
+        "a rainy season and a dry season"
+      ],
+      "explanation": "Rainy season = estação chuvosa; dry season = estação seca.",
+      "distractors": [
+        "cold season and snow season",
+        "rainfall and rainforest",
+        "winter and summer"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-climate-of-brazil-5",
+      "level": 4,
+      "topic": "climate-of-brazil",
+      "promptPt": "Complete em inglês: Em alguns dias de inverno no Sul, as temperaturas podem ser muito ___.\nComplete: On some winter days in southern Brazil, temperatures can be very ___.",
+      "promptEn": "Complete: On some winter days in southern Brazil, temperatures can be very ___.",
+      "answers": [
+        "low"
+      ],
+      "explanation": "O texto afirma que as temperaturas podem ser muito baixas em alguns dias de inverno.",
+      "distractors": [
+        "high",
+        "humid",
+        "dry"
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    },
+    {
+      "id": "l4-climate-of-brazil-6",
+      "level": 4,
+      "topic": "climate-of-brazil",
+      "promptPt": "Escreva em inglês o clima de partes do Nordeste.",
+      "promptEn": "Write the climate of parts of northeastern Brazil.",
+      "answers": [
+        "Semiarid.",
+        "A semiarid climate.",
+        "The semiarid climate."
+      ],
+      "explanation": "Partes do Nordeste apresentam clima semiárido.",
+      "distractors": [
+        "Equatorial.",
+        "Polar.",
+        "Subtropical."
+      ],
+      "source": "slide",
+      "responseLanguage": "en"
+    }
+  ]
+}
