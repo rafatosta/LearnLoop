@@ -41,13 +41,20 @@ export function optionsFor(question){
   const offset=Array.from(question.id).reduce((n,c)=>n+c.charCodeAt(0),0)%options.length;
   return options.slice(offset).concat(options.slice(0,offset));
 }
+export function useHint(state){
+  const b=state.battle;
+  if(!b||b.feedback||!b.queue.length)return state;
+  const id=b.queue[0].id;
+  if(b.hintedIds?.includes(id))return state;
+  return {...state,battle:{...b,hintedIds:[...(b.hintedIds||[]),id]}};
+}
 export function answerBattle(state,bank,answer){
   const b=state.battle;if(!b||b.feedback||!b.queue.length)return state;
   const item=b.queue[0];const q=bank.find(q=>q.id===item.id);
   const correct=q.answers.some(a=>normalize(a)===normalize(answer));
   const h=state.history[q.id]||{attempts:0,correct:0,choice:0,write:0};
   const history={...state.history,[q.id]:{...h,attempts:h.attempts+1,correct:h.correct+(correct?1:0),[item.mode]:h[item.mode]+(correct?1:0),lastMode:item.mode,lastLanguage:item.language}};
-  return {...state,history,attempts:state.attempts+1,mistakes:state.mistakes+(correct?0:1),xp:state.xp+(correct?10:0),battle:{...b,feedback:{correct,answer},solved:correct?[...b.solved,q.id]:b.solved}};
+  return {...state,history,attempts:state.attempts+1,mistakes:state.mistakes+(correct?0:1),xp:state.xp+(correct?(b.hintedIds?.includes(q.id)?5:10):0),battle:{...b,feedback:{correct,answer,earnedXp:correct?(b.hintedIds?.includes(q.id)?5:10):0},solved:correct?[...b.solved,q.id]:b.solved}};
 }
 export function continueBattle(state){
   const b=state.battle;if(!b?.feedback)return state;
@@ -70,6 +77,7 @@ export function loadAdventure(storage,bank){
       if(b.queue.some(i=>!b.selected.includes(i.id)||!['write','choice'].includes(i.mode)||!['pt','en'].includes(i.language)||!Number.isInteger(i.retries)||i.retries<0))return null;
       const union=[...b.queue.map(i=>i.id),...b.solved.filter(id=>id!==(b.feedback?.correct?b.queue[0].id:null))];
       if(union.length!==5||new Set(union).size!==5||union.some(id=>!b.selected.includes(id)))return null;
+      if(b.hintedIds && (!Array.isArray(b.hintedIds)||b.hintedIds.some(id=>!b.selected.includes(id))))return null;
       if(b.feedback&&(typeof b.feedback.correct!=='boolean'||typeof b.feedback.answer!=='string'))return null;
     }
     return s;

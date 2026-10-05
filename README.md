@@ -10,7 +10,7 @@ Cada fase sorteia cinco questões únicas, misturando revisão com questões ain
 
 Questões de níveis 1 e 2 alternam entre escolha e escrita; níveis 3 e 4 começam escritos. Após uma tentativa com alternativas, uma revisão futura prioriza escrita. Erros voltam ao fim da fila com formato e idioma alternados, oferecendo apoio para aprender. O aluno pode consultar a tradução e o texto de leitura. Toda resposta, certa ou errada, recebe explicação. Questões escritas em revisão têm dica opcional.
 
-Acertos valem 10 XP; vencer uma fase vale 25 XP. A vitória exige acertar todas as cinco questões. Sem vidas limitadas. O histórico registra acertos por formato. XP representa a prática; a fase concluída define a patente e a dificuldade seguinte.
+Acertos valem 10 XP, ou 5 XP quando a dica é utilizada. A condição fica salva por questão durante o confronto, inclusive após recarregar ou errar novamente; vencer uma fase vale 25 XP. A vitória exige acertar todas as cinco questões. Sem vidas limitadas. O histórico registra acertos por formato. XP representa a prática; a fase concluída define a patente e a dificuldade seguinte.
 
 Nome, avatar, sorteio, fila, feedback e histórico são salvos em `learnloop-adventure-v1` no localStorage. Criar outro personagem exige confirmação e reinicia apenas a aventura. Sem conta e sem sincronização entre dispositivos.
 
