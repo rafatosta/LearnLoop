@@ -42,3 +42,11 @@ test('invalid selections do not modify data and save failures surface to the cal
  assert.throws(()=>saveJourneys({setItem:()=>{throw new Error('quota')}},c));
  assert.equal(loadJourneys({getItem:()=>'{bad'},bank).journeys.length,0);
 });
+
+test('character is fixed per journey while progress can still change',()=>{
+ const c=addJourney({version:1,activeId:null,journeys:[]},newAdventure('Aki','water'),'one',1);
+ const updated=updateJourney(c,s=>({...s,avatar:'dog',xp:10}),2);
+ assert.equal(activeJourney(updated).avatar,'water');assert.equal(activeJourney(updated).xp,10);
+ const another=addJourney(updated,newAdventure('Outra','dog'),'two',3);
+ assert.equal(activeJourney(another).avatar,'dog');assert.equal(another.journeys[0].adventure.avatar,'water');
+});

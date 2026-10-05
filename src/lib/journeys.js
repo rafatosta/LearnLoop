@@ -1,4 +1,4 @@
-import { loadAdventure, STORAGE_KEY } from './adventure.js';
+import { loadAdventure } from './adventure.js';
 import { recoverForms } from './forms.js';
 export const JOURNEYS_KEY='learnloop-journeys-v1';
 export function activeJourney(collection){return collection.journeys.find(j=>j.id===collection.activeId)?.adventure||null;}
@@ -26,7 +26,7 @@ export function updateJourney(collection,update,now=Date.now()){
  const current=activeJourney(collection);if(!current)return collection;
  const next=typeof update==='function'?update(current):update;
  if(!next||next===current)return collection;
- return {...collection,journeys:collection.journeys.map(j=>j.id===collection.activeId?{...j,adventure:next,updatedAt:now}:j)};
+ return {...collection,journeys:collection.journeys.map(j=>j.id===collection.activeId?{...j,adventure:{...next,avatar:current.avatar},updatedAt:now}:j)};
 }
 export function selectJourney(collection,id,bank,now=Date.now()){
  if(!collection.journeys.some(j=>j.id===id))return collection;

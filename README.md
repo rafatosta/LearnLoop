@@ -64,7 +64,7 @@ O prazo absoluto é persistido: sair da tela, mudar de aba ou recarregar não pa
 
 O conjunto tem 12 avatares: oito humanos (homens, mulheres, meninos e meninas), Kumo (cachorro), Capitu (capivara), Atlas e Volt (robôs originais inspirados em Transformers). Os quatro IDs antigos continuam válidos; atualizar o app não apaga o personagem nem o progresso.
 
-`src/Avatar.jsx` desenha as ilustrações SVG. Os metadados ficam em `avatars`, em `src/lib/adventure.js`. `src/CharacterPicker.jsx` organiza a seleção em humanos, animais e robôs. A opção **Trocar personagem** no mapa altera só o campo avatar, preservando nome, XP, histórico, fases e formas conquistadas.
+`src/Avatar.jsx` desenha as ilustrações SVG. Os metadados ficam em `avatars`, em `src/lib/adventure.js`. `src/CharacterPicker.jsx` organiza a seleção em humanos, animais e robôs. O personagem é escolhido na criação e fica fixo em cada jornada. Para escolher outro, crie uma nova jornada. As jornadas existentes mantêm o personagem que estava salvo na atualização.
 
 ## Jornadas separadas
 
