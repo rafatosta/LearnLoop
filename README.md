@@ -12,7 +12,7 @@ Questões de níveis 1 e 2 alternam entre escolha e escrita; níveis 3 e 4 come�
 
 Acertos valem 10 XP, ou 5 XP quando a dica é utilizada. A condição fica salva por questão durante o confronto, inclusive após recarregar ou errar novamente; vencer uma fase vale 25 XP. A vitória exige acertar todas as cinco questões. Sem vidas limitadas. O histórico registra acertos por formato. XP representa a prática; a fase concluída define a patente e a dificuldade seguinte.
 
-Nome, avatar, sorteio, fila, feedback e histórico são salvos em `learnloop-adventure-v1` no localStorage. Criar outro personagem exige confirmação e reinicia apenas a aventura. Sem conta e sem sincronização entre dispositivos.
+Nome, avatar, sorteio, fila, feedback e histórico são salvos em `learnloop-adventure-v1` no localStorage. Novas jornadas preservam as aventuras anteriores, disponíveis em Minhas jornadas. Sem conta e sem sincronização entre dispositivos.
 
 ## Estrutura e edição
 
@@ -65,3 +65,9 @@ O prazo absoluto é persistido: sair da tela, mudar de aba ou recarregar não pa
 O conjunto tem 12 avatares: oito humanos (homens, mulheres, meninos e meninas), Kumo (cachorro), Capitu (capivara), Atlas e Volt (robôs originais inspirados em Transformers). Os quatro IDs antigos continuam válidos; atualizar o app não apaga o personagem nem o progresso.
 
 `src/Avatar.jsx` desenha as ilustrações SVG. Os metadados ficam em `avatars`, em `src/lib/adventure.js`. `src/CharacterPicker.jsx` organiza a seleção em humanos, animais e robôs. A opção **Trocar personagem** no mapa altera só o campo avatar, preservando nome, XP, histórico, fases e formas conquistadas.
+
+## Jornadas separadas
+
+**Minhas jornadas** permite começar outra aventura e retomar qualquer jornada anterior. Cada uma guarda nome, personagem, XP, histórico, confronto pendente, fases e formas de maneira independente. Todas são salvas automaticamente neste navegador. **Salvar e começar outra** preserva a atual antes de abrir a criação de um novo personagem; não existe exclusão de jornada nesta interface.
+
+O progresso único anterior é migrado automaticamente para a primeira jornada. A nova coleção fica na chave `learnloop-journeys-v1`; o registro antigo é mantido. `src/lib/journeys.js` cuida da coleção, migração e seleção. `src/Journeys.jsx` apresenta os cartões de aventuras. Trocar de jornada não pausa os desafios cronometrados: ao retomar, o prazo original é verificado. Se o navegador impedir o salvamento, começar outra jornada é bloqueado e o aviso permanece visível.
